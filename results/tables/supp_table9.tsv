@@ -1,0 +1,5 @@
+pathway_name	kegg_id	q_value	pathway_size
+Ubiquitin mediated proteolysis - Homo sapiens (human)	path:hsa04120	0.03	137
+RNA transport - Homo sapiens (human)	path:hsa03013	0.0442	171
+Spliceosome - Homo sapiens (human)	path:hsa03040	0.001	134
+Cell cycle - Homo sapiens (human)	path:hsa04110	0.0255	124

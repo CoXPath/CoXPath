@@ -1,0 +1,65 @@
+doid	disease_name	number_experiments	number_samples	number_nodes_in_net	number_edges_in_net	cluster_group
+NA	normal	135	3576	14466	2036667	Normal
+doid:9119	acute myeloid leukemia	24	2515	14929	2036667	Other cancer
+doid:1612	breast cancer	27	2238	13891	2036667	Other cancer
+doid:0070004	myeloid neoplasm	5	1284	8515	2036667	Other cancer
+doid:9538	multiple myeloma	7	985	8917	2036667	Other cancer
+doid:2841	asthma	6	750	10668	2036667	Respiratory system disease
+doid:9256	colorectal cancer	14	603	7384	2036667	Gastrointestinal system disease
+doid:8893	psoriasis	8	473	10215	2036667	Immune system disease
+doid:1040	chronic lymphocytic leukemia	10	461	13565	2036667	Immune system disease
+doid:0040085	bacterial sepsis	5	390	15356	2036667	Infectious disease
+doid:9952	acute lymphoblastic leukemia	8	326	7663	2036667	Other cancer
+doid:3908	lung non-small cell carcinoma	7	323	10017	2036667	Respiratory system disease
+doid:3083	chronic obstructive pulmonary disease	5	266	11240	2036667	Respiratory system disease
+doid:5603	T-cell acute lymphoblastic leukemia	5	265	12599	2036667	Immune system disease
+doid:2394	ovarian cancer	5	242	5849	2036667	Reproductive system disease
+doid:4450	renal cell carcinoma	5	240	11336	2036667	Other cancer
+doid:9970	obesity	5	232	7069	2036667	Other disease
+doid:10652	Alzheimer's disease	6	219	18820	2036667	Nervous system disease
+doid:0050866	oral squamous cell carcinoma	2	216	10918	2036667	Gastrointestinal system disease
+doid:9778	irritable bowel syndrome	2	206	15351	2036667	Gastrointestinal system disease
+doid:0050908	myelodysplastic syndrome	3	202	12558	2036667	Other cancer
+doid:3910	lung adenocarcinoma	4	200	13061	2036667	Respiratory system disease
+doid:3069	astrocytoma	4	197	6500	2036667	Nervous system disease
+doid:169	neuroendocrine tumor	2	194	10468	2036667	Other cancer
+doid:0050746	mantle cell lymphoma	6	172	13421	2036667	Immune system disease
+doid:8567	Hodgkin's lymphoma	3	169	10667	2036667	Immune system disease
+doid:1115	sarcoma	3	160	5450	2036667	Other cancer
+doid:1793	pancreatic cancer	10	155	9261	2036667	Other cancer
+doid:5419	schizophrenia	5	148	13527	2036667	Cognitive disorder
+doid:2377	multiple sclerosis	8	137	17903	2036667	Immune system disease
+doid:5844	myocardial infarction	6	128	13189	2036667	Cardiovascular system disease
+doid:3070	malignant glioma	5	128	10001	2036667	Nervous system disease
+doid:1909	melanoma	4	122	7638	2036667	Other cancer
+doid:4074	pancreatic adenocarcinoma	4	122	14900	2036667	Other cancer
+doid:1324	lung cancer	8	121	16278	2036667	Respiratory system disease
+doid:3247	rhabdomyosarcoma	2	109	11076	2036667	Musculoskeletal system disease
+doid:769	neuroblastoma	2	104	13515	2036667	Nervous system disease
+doid:657	adenoma	4	103	13450	2036667	Other disease
+doid:3382	liposarcoma	2	100	10607	2036667	Musculoskeletal system disease
+doid:1967	leiomyosarcoma	2	89	9699	2036667	Musculoskeletal system disease
+doid:5520	head and neck squamous cell carcinoma	1	81	14410	2036667	Other cancer
+doid:9261	nasopharynx carcinoma	2	81	17699	2036667	Gastrointestinal system disease
+doid:0050902	medulloblastoma	4	81	8090	2036667	Nervous system disease
+doid:289	endometriosis	2	78	11943	2036667	Reproductive system disease
+doid:0050909	MALT lymphoma	4	75	16362	2036667	Immune system disease
+doid:3234	central nervous system lymphoma	2	72	8684	2036667	Immune system disease
+doid:0050749	peripheral T-cell lymphoma	2	69	5754	2036667	Immune system disease
+doid:1596	mental depression	5	69	16071	2036667	Cognitive disorder
+doid:7502	pediatric supratentorial ependymoma	2	68	8711	2036667	Nervous system disease
+doid:3312	bipolar disorder	2	66	12071	2036667	Cognitive disorder
+doid:8778	Crohn's disease	4	64	17181	2036667	Gastrointestinal system disease
+doid:1470	major depressive disorder	2	64	10402	2036667	Cognitive disorder
+doid:9074	systemic lupus erythematosus	2	62	12726	2036667	Immune system disease
+doid:9253	gastrointestinal stromal tumor	2	61	18313	2036667	Gastrointestinal system disease
+doid:11335	sarcoidosis	3	58	11376	2036667	Immune system disease
+doid:3310	atopic dermatitis	3	58	14457	2036667	Immune system disease
+doid:10223	dermatomyositis	2	56	14374	2036667	Musculoskeletal system disease
+doid:10283	prostate cancer	4	53	17059	2036667	Respiratory system disease
+doid:0080199	colorectal carcinoma	2	51	10026	2036667	Gastrointestinal system disease
+doid:9744	type 1 diabetes mellitus	2	15	13945	2036667	Immune system disease
+doid:0050750	splenic marginal zone lymphoma	2	13	18449	2036667	Immune system disease
+doid:1883	hepatitis C	1	12	15074	2036667	Infectious disease
+doid:0050745	diffuse large B-cell lymphoma	1	9	18088	2036667	Immune system disease
+doid:0060074	ductal carcinoma in situ	1	9	20163	2036667	Other disease

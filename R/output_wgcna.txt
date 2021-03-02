@@ -1,0 +1,3266 @@
+Loading required package: dynamicTreeCut
+Loading required package: fastcluster
+
+Attaching package: ‘fastcluster’
+
+The following object is masked from ‘package:stats’:
+
+    hclust
+
+
+
+Attaching package: ‘WGCNA’
+
+The following object is masked from ‘package:stats’:
+
+    cor
+
+[1] "Next group: 1612"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq   slope truncated.R.sq mean.k. median.k. max.k.
+1     2   0.0048 -0.0986          0.529 1870.00  1880.000 3700.0
+2     4   0.5450 -1.1200          0.794  319.00   256.000 1050.0
+3     6   0.6930 -1.7300          0.851   74.90    44.200  407.0
+4     8   0.7460 -1.9300          0.910   21.60     9.270  177.0
+5    10   0.7590 -1.9900          0.955    7.16     2.270   82.2
+6    12   0.7810 -2.0200          0.984    2.62     0.619   40.1
+[1] 12
+        99% 
+0.004627228 
+[1] "Next group: 9119"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2   0.0154 -0.177          0.742 1130.00  1040.000 2540.0
+2     4   0.6110 -1.270          0.879  180.00   138.000  655.0
+3     6   0.7890 -1.780          0.979   41.80    26.500  251.0
+4     8   0.8400 -2.110          0.988   12.10     6.250  120.0
+5    10   0.8890 -2.200          0.992    4.07     1.640   63.8
+6    12   0.9100 -2.210          0.990    1.54     0.476   37.3
+[1] 10
+        99% 
+0.007556816 
+[1] "Next group: 9256"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2   0.0196  0.118          0.485  2400.0   2240.00   4810
+2     4   0.6730 -0.865          0.698   597.0    389.00   1930
+3     6   0.7770 -1.190          0.810   203.0     91.80    985
+4     8   0.7790 -1.330          0.862    81.8     25.90    557
+5    10   0.7850 -1.420          0.906    36.8      8.07    334
+6    12   0.8070 -1.480          0.944    17.9      2.75    210
+[1] 12
+       99% 
+0.03214247 
+[1] "Next group: 9538"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.253  0.233         0.0459    5520      5970   9680
+2     4    0.322 -0.467         0.1760    2450      2240   6040
+3     6    0.447 -0.747         0.3660    1320       921   4130
+4     8    0.485 -0.901         0.4650     781       401   2970
+5    10    0.515 -1.000         0.5670     490       184   2200
+6    12    0.536 -1.090         0.6670     319        88   1660
+[1] 30
+       99% 
+0.02154287 
+[1] "Next group: 1324"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2   0.0509  0.715          0.765 3020.00   3030.00   5460
+2     4   0.2030 -1.080          0.926  661.00    614.00   1780
+3     6   0.5770 -2.150          0.969  183.00    154.00    739
+4     8   0.7260 -2.670          0.985   60.70     45.40    357
+5    10   0.7610 -2.860          0.981   23.00     14.90    186
+6    12   0.7820 -2.700          0.975    9.69      5.28    102
+[1] 12
+       99% 
+0.01282618 
+[1] "Next group: 3069"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2   0.0749 -0.297          0.590  1740.0   1440.00   4160
+2     4   0.7130 -1.270          0.702   439.0    233.00   1960
+3     6   0.7290 -1.380          0.751   165.0     53.40   1140
+4     8   0.7620 -1.380          0.849    75.0     14.70    716
+5    10   0.7750 -1.390          0.901    38.0      4.54    466
+6    12   0.7730 -1.440          0.932    20.6      1.57    317
+[1] 10
+       99% 
+0.07852852 
+[1] "Next group: 3908"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2   0.0464 -0.376          0.887 2090.00   2030.00   4920
+2     4   0.6270 -1.540          0.941  440.00    360.00   1760
+3     6   0.8310 -1.840          0.963  129.00     85.60    804
+4     8   0.8960 -1.870          0.978   46.10     24.00    421
+5    10   0.9040 -1.880          0.981   19.00      7.59    246
+6    12   0.9080 -1.850          0.982    8.67      2.60    152
+[1] 8
+      99% 
+0.0604864 
+[1] "Next group: 0070004"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.120 -0.355          0.643  2250.0   2050.00   5260
+2     4    0.636 -1.200          0.778   627.0    423.00   2440
+3     6    0.671 -1.520          0.837   238.0    115.00   1380
+4     8    0.701 -1.670          0.893   105.0     36.30    839
+5    10    0.740 -1.730          0.941    51.2     12.70    535
+6    12    0.756 -1.810          0.959    26.5      4.82    352
+[1] 12
+      99% 
+0.0476371 
+[1] "Next group: 9952"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.641  0.358          0.562    5220    5440.0   9100
+2     4    0.396 -0.504          0.274    2170    1860.0   5480
+3     6    0.495 -0.835          0.429    1110     706.0   3690
+4     8    0.497 -1.020          0.501     632     283.0   2620
+5    10    0.532 -1.110          0.599     387     119.0   1930
+6    12    0.571 -1.150          0.692     248      52.8   1440
+[1] 30
+       99% 
+0.02075426 
+[1] "Next group: 2394"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.140 -0.310          0.651  2160.0   2220.00   4800
+2     4    0.746 -0.895          0.912   601.0    491.00   2120
+3     6    0.799 -1.190          0.919   234.0    136.00   1240
+4     8    0.799 -1.390          0.903   109.0     43.00    822
+5    10    0.812 -1.510          0.908    57.0     14.80    577
+6    12    0.830 -1.550          0.925    32.1      5.53    419
+[1] 12
+       99% 
+0.07573321 
+[1] "Next group: 0050745"
+[1] "Next group: 3459"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.304 -0.946          0.742 1290.00  1110.000 3540.0
+2     4    0.641 -2.000          0.861  216.00   125.000 1210.0
+3     6    0.698 -2.290          0.944   52.40    20.400  507.0
+4     8    0.755 -2.320          0.975   15.50     4.140  237.0
+5    10    0.790 -2.330          0.972    5.26     0.965  118.0
+6    12    0.469 -2.990          0.544    1.96     0.249   61.1
+[1] 10
+       99% 
+0.01100902 
+[1] "Next group: 2841"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.648  0.988          0.887  3200.0    3330.0   5400
+2     4    0.235 -0.527          0.702  1050.0    1030.0   2610
+3     6    0.573 -1.090          0.880   451.0     385.0   1550
+4     8    0.702 -1.360          0.941   223.0     161.0   1020
+5    10    0.768 -1.530          0.966   122.0      72.8    717
+6    12    0.804 -1.640          0.979    71.1      34.8    529
+[1] 12
+      99% 
+0.1075629 
+[1] "Next group: 1040"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2   0.0565  0.352          0.449 2110.00   2220.00 3870.0
+2     4   0.3070 -0.808          0.813  448.00    439.00 1220.0
+3     6   0.5990 -1.650          0.957  126.00    109.00  535.0
+4     8   0.7440 -2.020          0.988   42.40     31.00  257.0
+5    10   0.8110 -2.220          0.994   16.00      9.83  136.0
+6    12   0.8350 -2.320          0.990    6.59      3.33   76.1
+[1] 12
+       99% 
+0.01117891 
+[1] "Next group: 8893"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.150 -0.761          0.972  941.00   876.000 2550.0
+2     4    0.843 -2.060          0.986  142.00   106.000  842.0
+3     6    0.928 -2.060          0.991   34.70    19.000  381.0
+4     8    0.942 -1.950          0.990   11.30     4.270  204.0
+5    10    0.958 -1.810          0.996    4.42     1.090  121.0
+6    12    0.956 -1.720          0.994    2.00     0.308   77.5
+[1] 6
+       99% 
+0.05316973 
+[1] "Next group: 5520"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.636 -2.38          0.983 570.000  520.0000 1610.0
+2     4    0.927 -2.52          0.991  52.900   38.9000  383.0
+3     6    0.960 -2.26          0.981   9.210    4.7200  156.0
+4     8    0.959 -1.94          0.985   2.540    0.7850   83.2
+5    10    0.956 -1.67          0.984   0.991    0.1610   51.4
+6    12    0.945 -1.48          0.961   0.492    0.0386   34.6
+[1] 4
+       99% 
+0.03736938 
+[1] "Next group: 0040085"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq   slope truncated.R.sq mean.k. median.k. max.k.
+1     2  0.00139  0.0515          0.778  2060.0   2060.00   4240
+2     4  0.49400 -1.3000          0.903   491.0    443.00   1650
+3     6  0.67600 -1.7300          0.959   161.0    125.00    781
+4     8  0.74000 -1.9500          0.974    63.4     41.60    414
+5    10  0.78300 -2.0600          0.981    28.1     15.40    237
+6    12  0.80700 -2.0900          0.984    13.6      6.14    144
+[1] 12
+       99% 
+0.02473968 
+[1] "Next group: 1793"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.723  0.703          0.788    5780      6130   9580
+2     4    0.243 -0.333          0.406    2480      2400   5750
+3     6    0.531 -0.774          0.645    1280      1060   3860
+4     8    0.594 -1.050          0.701     730       505   2780
+5    10    0.606 -1.240          0.721     450       254   2080
+6    12    0.608 -1.380          0.737     292       134   1600
+[1] 2
+      99% 
+0.5714144 
+[1] "Next group: 1909"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.185 -0.475          0.276  2930.0   2650.00   6480
+2     4    0.553 -1.020          0.504   925.0    527.00   3250
+3     6    0.646 -1.080          0.621   397.0    130.00   1920
+4     8    0.664 -1.150          0.721   198.0     39.30   1240
+5    10    0.646 -1.270          0.795   108.0     13.10    849
+6    12    0.680 -1.330          0.874    62.1      4.87    594
+[1] 30
+        99% 
+0.003588357 
+[1] "Next group: 5603"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2   0.0525 -0.307          0.652  1910.0   1790.00   4200
+2     4   0.5610 -1.300          0.807   446.0    338.00   1650
+3     6   0.7060 -1.560          0.884   146.0     85.80    785
+4     8   0.7560 -1.660          0.918    57.2     25.80    408
+5    10   0.7910 -1.670          0.946    25.0      8.73    224
+6    12   0.8000 -1.690          0.957    11.8      3.23    127
+[1] 12
+       99% 
+0.02140897 
+[1] "Next group: 3083"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq   slope truncated.R.sq mean.k. median.k. max.k.
+1     2 0.000696 -0.0372          0.464  3350.0    3420.0   6750
+2     4 0.404000 -1.2400          0.730  1100.0     973.0   3380
+3     6 0.544000 -1.5700          0.845   460.0     347.0   1920
+4     8 0.603000 -1.7300          0.886   222.0     139.0   1170
+5    10 0.674000 -1.6800          0.905   117.0      61.0    748
+6    12 0.808000 -1.5100          0.971    66.6      28.6    493
+[1] 12
+       99% 
+0.08411308 
+[1] "Next group: 0050908"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.419 -1.66          0.916  821.00   748.000 2430.0
+2     4    0.773 -2.26          0.964  113.00    79.900  727.0
+3     6    0.862 -2.19          0.987   25.90    13.100  293.0
+4     8    0.875 -2.13          0.989    7.97     2.740  138.0
+5    10    0.880 -2.09          0.993    2.95     0.683   72.6
+6    12    0.882 -2.03          0.995    1.24     0.187   40.2
+[1] 6
+       99% 
+0.04583991 
+[1] "Next group: 263"
+[1] "Next group: 4450"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.032 -0.204          0.354  2770.0   2790.00   5770
+2     4    0.499 -1.110          0.715   739.0    592.00   2470
+3     6    0.631 -1.550          0.841   253.0    153.00   1250
+4     8    0.701 -1.760          0.907   100.0     46.00    691
+5    10    0.736 -1.880          0.945    43.6     15.60    401
+6    12    0.763 -1.930          0.969    20.4      5.77    241
+[1] 12
+       99% 
+0.02777662 
+[1] "Next group: 9970"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.601  1.60          0.912    2870    2660.0   5240
+2     4    0.245 -0.49          0.860    1010     831.0   2790
+3     6    0.767 -1.16          0.890     478     338.0   1870
+4     8    0.798 -1.44          0.856     265     155.0   1370
+5    10    0.802 -1.52          0.853     161      77.0   1060
+6    12    0.812 -1.53          0.866     105      40.2    841
+[1] 12
+      99% 
+0.1771958 
+[1] "Next group: 10652"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq   slope truncated.R.sq mean.k. median.k. max.k.
+1     2   0.7740  1.7100         0.9870   13500     14300  16200
+2     4   0.7660  1.0400         0.9330    9830     10600  13500
+3     6   0.6650  0.6370         0.6800    7440      8090  11500
+4     8   0.3820  0.3570         0.2070    5790      6290   9910
+5    10   0.0596  0.1290        -0.1290    4610      4950   8620
+6    12   0.0092 -0.0566        -0.0358    3720      3950   7570
+[1] 2
+      99% 
+0.8243283 
+[1] "Next group: 0050866"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.425 -0.701          0.615  2450.0   2300.00   6440
+2     4    0.659 -1.290          0.863   689.0    442.00   3250
+3     6    0.740 -1.530          0.943   258.0    103.00   1890
+4     8    0.792 -1.660          0.975   113.0     28.20   1190
+5    10    0.812 -1.750          0.980    54.7      8.88    791
+6    12    0.840 -1.800          0.989    28.6      3.11    546
+[1] 12
+       99% 
+0.06766069 
+[1] "Next group: 9778"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.095 -0.476          0.348  3770.0    4140.0   8010
+2     4    0.450 -1.310          0.881  1140.0    1150.0   3920
+3     6    0.636 -1.740          0.980   415.0     366.0   2070
+4     8    0.747 -1.960          0.996   171.0     129.0   1160
+5    10    0.811 -2.080          0.998    77.5      48.5    683
+6    12    0.850 -2.120          0.997    38.0      19.4    427
+[1] 12
+       99% 
+0.04360509 
+[1] "Next group: 3910"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.755  0.481          0.762    6060      6390  10500
+2     4    0.471 -0.382          0.598    2670      2500   6570
+3     6    0.671 -0.761          0.755    1390      1070   4570
+4     8    0.708 -0.981          0.788     808       490   3370
+5    10    0.730 -1.110          0.815     504       233   2580
+6    12    0.712 -1.210          0.815     332       115   2020
+[1] 2
+      99% 
+0.6096227 
+[1] "Next group: 169"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.634 -1.85          0.970 621.000  537.0000 2130.0
+2     4    0.872 -2.11          0.972  71.400   41.8000  621.0
+3     6    0.951 -1.83          0.992  15.500    5.2100  258.0
+4     8    0.954 -1.70          0.989   4.930    0.8670  142.0
+5    10    0.955 -1.61          0.992   2.030    0.1750   89.6
+6    12    0.954 -1.54          0.995   0.991    0.0406   61.0
+[1] 4
+       99% 
+0.07524137 
+[1] "Next group: 0060074"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq   slope truncated.R.sq mean.k. median.k. max.k.
+1     2 0.000342 -0.0753          0.960  2820.0    2790.0   4080
+2     4 0.303000 -1.5300          0.971   919.0     882.0   1760
+3     6 0.555000 -1.9700          0.977   409.0     377.0    986
+4     8 0.711000 -2.2400          0.987   217.0     192.0    638
+5    10 0.801000 -2.4000          0.991   128.0     109.0    451
+6    12 0.850000 -2.4800          0.990    81.7      67.2    339
+[1] 12
+       99% 
+0.07260497 
+[1] "Next group: 2377"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2   0.0446  0.462          0.635  2420.0   2460.00   4470
+2     4   0.2890 -1.220          0.949   522.0    499.00   1520
+3     6   0.6410 -2.080          0.994   145.0    127.00    629
+4     8   0.7750 -2.530          0.999    47.0     37.50    292
+5    10   0.8350 -2.660          0.997    17.0     12.10    144
+6    12   0.8620 -2.730          0.995     6.7      4.25     74
+[1] 12
+        99% 
+0.007401496 
+[1] "Next group: 8567"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2   0.0569  0.117         -0.199    4920    5520.0   9090
+2     4   0.4330 -0.557          0.355    2130    2060.0   5710
+3     6   0.5960 -0.832          0.670    1100     849.0   3910
+4     8   0.6470 -1.040          0.793     620     367.0   2810
+5    10   0.6890 -1.180          0.866     372     165.0   2080
+6    12   0.7160 -1.290          0.903     232      77.5   1580
+[1] 12
+      99% 
+0.1724124 
+[1] "Next group: 0050746"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2   0.0824 -0.475          0.880 1330.00  1280.000 3080.0
+2     4   0.7250 -1.760          0.967  227.00   176.000 1050.0
+3     6   0.8380 -2.060          0.979   55.70    33.300  440.0
+4     8   0.8570 -2.130          0.978   16.90     7.650  205.0
+5    10   0.8660 -2.150          0.983    5.92     2.030  105.0
+6    12   0.8850 -2.130          0.995    2.31     0.591   57.4
+[1] 8
+       99% 
+0.02610862 
+[1] "Next group: 10283"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.199 -1.16          0.892 1850.00   1730.00   4480
+2     4    0.647 -2.00          0.956  409.00    333.00   1690
+3     6    0.764 -2.19          0.974  127.00     89.10    775
+4     8    0.810 -2.30          0.984   48.10     28.80    413
+5    10    0.836 -2.33          0.989   20.80     10.60    236
+6    12    0.859 -2.31          0.993    9.89      4.28    142
+[1] 12
+       99% 
+0.01899864 
+[1] "Next group: 5419"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.010  0.136          0.497  2670.0    2780.0   5060
+2     4    0.362 -1.060          0.780   739.0     726.0   2150
+3     6    0.552 -1.530          0.896   268.0     234.0   1080
+4     8    0.645 -1.710          0.935   113.0      84.9    591
+5    10    0.726 -1.730          0.960    53.2      33.5    341
+6    12    0.777 -1.840          0.978    27.0      14.1    218
+[1] 12
+       99% 
+0.03879173 
+[1] "Next group: 1115"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.646 -1.44          0.764  720.00  562.0000   2270
+2     4    0.907 -1.52          0.916  115.00   45.9000    920
+3     6    0.955 -1.36          0.969   36.00    5.8800    526
+4     8    0.964 -1.30          0.972   15.50    1.0100    345
+5    10    0.964 -1.28          0.972    7.93    0.2160    246
+6    12    0.945 -1.27          0.954    4.51    0.0535    183
+[1] 4
+      99% 
+0.1672556 
+[1] "Next group: 657"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.116 -0.799          0.666 1620.00   1680.00 3490.0
+2     4    0.437 -1.330          0.883  292.00    269.00  959.0
+3     6    0.696 -1.770          0.967   74.80     57.00  382.0
+4     8    0.824 -2.020          0.993   24.00     14.30  194.0
+5    10    0.859 -2.190          0.990    9.03      4.07  117.0
+6    12    0.897 -2.170          0.994    3.83      1.26   75.2
+[1] 10
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./657/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 59 module eigengenes in given set.
+ ....checking kME in modules..
+  ..reassigning 19 genes from module 1 to modules with higher KME.
+  ..reassigning 23 genes from module 2 to modules with higher KME.
+  ..reassigning 20 genes from module 3 to modules with higher KME.
+  ..reassigning 3 genes from module 4 to modules with higher KME.
+  ..reassigning 12 genes from module 5 to modules with higher KME.
+  ..reassigning 11 genes from module 6 to modules with higher KME.
+  ..reassigning 6 genes from module 7 to modules with higher KME.
+  ..reassigning 10 genes from module 8 to modules with higher KME.
+  ..reassigning 5 genes from module 9 to modules with higher KME.
+  ..reassigning 2 genes from module 10 to modules with higher KME.
+  ..reassigning 6 genes from module 12 to modules with higher KME.
+  ..reassigning 1 genes from module 13 to modules with higher KME.
+  ..reassigning 3 genes from module 14 to modules with higher KME.
+  ..reassigning 6 genes from module 15 to modules with higher KME.
+  ..reassigning 5 genes from module 16 to modules with higher KME.
+  ..reassigning 3 genes from module 17 to modules with higher KME.
+  ..reassigning 6 genes from module 18 to modules with higher KME.
+  ..reassigning 1 genes from module 19 to modules with higher KME.
+  ..reassigning 4 genes from module 20 to modules with higher KME.
+  ..reassigning 4 genes from module 21 to modules with higher KME.
+  ..reassigning 2 genes from module 22 to modules with higher KME.
+  ..reassigning 3 genes from module 25 to modules with higher KME.
+  ..reassigning 2 genes from module 26 to modules with higher KME.
+  ..reassigning 1 genes from module 27 to modules with higher KME.
+  ..reassigning 1 genes from module 30 to modules with higher KME.
+  ..reassigning 2 genes from module 32 to modules with higher KME.
+  ..reassigning 1 genes from module 36 to modules with higher KME.
+  ..reassigning 1 genes from module 37 to modules with higher KME.
+  ..reassigning 1 genes from module 39 to modules with higher KME.
+  ..reassigning 1 genes from module 40 to modules with higher KME.
+  ..reassigning 1 genes from module 43 to modules with higher KME.
+  ..reassigning 1 genes from module 50 to modules with higher KME.
+  ..reassigning 1 genes from module 51 to modules with higher KME.
+  ..reassigning 1 genes from module 53 to modules with higher KME.
+  ..reassigning 1 genes from module 56 to modules with higher KME.
+  ..reassigning 1 genes from module 57 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+      99% 
+0.0165379 
+[1] "Next group: 0050749"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq   slope truncated.R.sq mean.k. median.k. max.k.
+1     2  0.00416 -0.0961         0.0646    4890    5430.0   8950
+2     4  0.25700 -0.9410         0.5490    1900    1990.0   4950
+3     6  0.43900 -1.1200         0.7510     890     834.0   2970
+4     8  0.60200 -1.1900         0.8690     470     379.0   1930
+5    10  0.66700 -1.4400         0.9020     269     183.0   1420
+6    12  0.71000 -1.6000         0.9120     164      92.6   1080
+[1] 12
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./0050749/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 43 module eigengenes in given set.
+ ....checking kME in modules..
+  ..reassigning 417 genes from module 1 to modules with higher KME.
+  ..reassigning 163 genes from module 2 to modules with higher KME.
+  ..reassigning 71 genes from module 3 to modules with higher KME.
+  ..reassigning 63 genes from module 4 to modules with higher KME.
+  ..reassigning 28 genes from module 5 to modules with higher KME.
+  ..reassigning 14 genes from module 6 to modules with higher KME.
+  ..reassigning 15 genes from module 7 to modules with higher KME.
+  ..reassigning 10 genes from module 8 to modules with higher KME.
+  ..reassigning 2 genes from module 9 to modules with higher KME.
+  ..reassigning 9 genes from module 10 to modules with higher KME.
+  ..reassigning 10 genes from module 11 to modules with higher KME.
+  ..reassigning 11 genes from module 12 to modules with higher KME.
+  ..reassigning 4 genes from module 13 to modules with higher KME.
+  ..reassigning 15 genes from module 14 to modules with higher KME.
+  ..reassigning 8 genes from module 15 to modules with higher KME.
+  ..reassigning 2 genes from module 16 to modules with higher KME.
+  ..reassigning 7 genes from module 17 to modules with higher KME.
+  ..reassigning 10 genes from module 18 to modules with higher KME.
+  ..reassigning 10 genes from module 19 to modules with higher KME.
+  ..reassigning 17 genes from module 20 to modules with higher KME.
+  ..reassigning 6 genes from module 21 to modules with higher KME.
+  ..reassigning 4 genes from module 22 to modules with higher KME.
+  ..reassigning 5 genes from module 23 to modules with higher KME.
+  ..reassigning 4 genes from module 27 to modules with higher KME.
+  ..reassigning 2 genes from module 29 to modules with higher KME.
+  ..reassigning 5 genes from module 30 to modules with higher KME.
+  ..reassigning 1 genes from module 31 to modules with higher KME.
+  ..reassigning 3 genes from module 34 to modules with higher KME.
+  ..reassigning 2 genes from module 35 to modules with higher KME.
+  ..reassigning 1 genes from module 36 to modules with higher KME.
+  ..reassigning 3 genes from module 41 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+     99% 
+0.148873 
+[1] "Next group: 0050750"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.182 -0.941          0.824  2730.0    2590.0   5490
+2     4    0.567 -1.670          0.876   841.0     720.0   2520
+3     6    0.681 -1.870          0.919   350.0     269.0   1390
+4     8    0.719 -1.990          0.934   172.0     120.0    845
+5    10    0.748 -2.030          0.949    94.0      60.4    548
+6    12    0.783 -2.030          0.968    55.7      33.0    373
+[1] 12
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./0050750/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 370 module eigengenes in given set.
+ ....checking kME in modules..
+     ..removing 1 genes from module 17 because their KME is too low.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       99% 
+0.05822529 
+[1] "Next group: 5844"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2   0.0852 -0.344          0.809 2130.00   2020.00   4810
+2     4   0.5930 -1.500          0.885  490.00    389.00   1950
+3     6   0.7140 -1.990          0.936  150.00     98.30    946
+4     8   0.7620 -2.220          0.960   54.60     28.80    507
+5    10   0.7930 -2.340          0.976   22.30      9.41    291
+6    12   0.8210 -2.350          0.979    9.92      3.31    176
+[1] 12
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./5844/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 70 module eigengenes in given set.
+ ....checking kME in modules..
+  ..reassigning 75 genes from module 1 to modules with higher KME.
+  ..reassigning 36 genes from module 2 to modules with higher KME.
+  ..reassigning 42 genes from module 3 to modules with higher KME.
+  ..reassigning 17 genes from module 4 to modules with higher KME.
+  ..reassigning 22 genes from module 5 to modules with higher KME.
+  ..reassigning 4 genes from module 6 to modules with higher KME.
+  ..reassigning 25 genes from module 7 to modules with higher KME.
+  ..reassigning 12 genes from module 8 to modules with higher KME.
+  ..reassigning 7 genes from module 9 to modules with higher KME.
+  ..reassigning 6 genes from module 10 to modules with higher KME.
+  ..reassigning 2 genes from module 11 to modules with higher KME.
+  ..reassigning 2 genes from module 12 to modules with higher KME.
+  ..reassigning 9 genes from module 13 to modules with higher KME.
+  ..reassigning 2 genes from module 14 to modules with higher KME.
+  ..reassigning 9 genes from module 15 to modules with higher KME.
+  ..reassigning 2 genes from module 16 to modules with higher KME.
+  ..reassigning 5 genes from module 17 to modules with higher KME.
+  ..reassigning 6 genes from module 18 to modules with higher KME.
+  ..reassigning 4 genes from module 20 to modules with higher KME.
+  ..reassigning 2 genes from module 21 to modules with higher KME.
+  ..reassigning 4 genes from module 22 to modules with higher KME.
+  ..reassigning 8 genes from module 23 to modules with higher KME.
+  ..reassigning 9 genes from module 24 to modules with higher KME.
+  ..reassigning 3 genes from module 26 to modules with higher KME.
+  ..reassigning 2 genes from module 27 to modules with higher KME.
+  ..reassigning 5 genes from module 28 to modules with higher KME.
+  ..reassigning 1 genes from module 29 to modules with higher KME.
+  ..reassigning 1 genes from module 32 to modules with higher KME.
+  ..reassigning 6 genes from module 33 to modules with higher KME.
+  ..reassigning 3 genes from module 34 to modules with higher KME.
+  ..reassigning 1 genes from module 35 to modules with higher KME.
+  ..reassigning 1 genes from module 36 to modules with higher KME.
+  ..reassigning 2 genes from module 39 to modules with higher KME.
+  ..reassigning 2 genes from module 41 to modules with higher KME.
+  ..reassigning 1 genes from module 42 to modules with higher KME.
+  ..reassigning 1 genes from module 44 to modules with higher KME.
+  ..reassigning 1 genes from module 45 to modules with higher KME.
+  ..reassigning 2 genes from module 46 to modules with higher KME.
+  ..reassigning 1 genes from module 49 to modules with higher KME.
+  ..reassigning 2 genes from module 51 to modules with higher KME.
+  ..reassigning 1 genes from module 53 to modules with higher KME.
+  ..reassigning 1 genes from module 54 to modules with higher KME.
+  ..reassigning 1 genes from module 56 to modules with higher KME.
+  ..reassigning 1 genes from module 58 to modules with higher KME.
+  ..reassigning 1 genes from module 60 to modules with higher KME.
+  ..reassigning 1 genes from module 65 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       99% 
+0.01893081 
+[1] "Next group: 3070"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2   0.0251  0.164          0.285  3440.0    3600.0   6420
+2     4   0.3650 -0.880          0.623  1120.0    1020.0   3170
+3     6   0.5430 -1.410          0.805   466.0     352.0   1910
+4     8   0.6410 -1.670          0.892   225.0     135.0   1250
+5    10   0.7100 -1.770          0.941   119.0      56.5    864
+6    12   0.7450 -1.840          0.965    67.5      25.2    616
+[1] 12
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./3070/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 33 module eigengenes in given set.
+ ....checking kME in modules..
+     ..removing 1 genes from module 1 because their KME is too low.
+     ..removing 1 genes from module 3 because their KME is too low.
+  ..reassigning 575 genes from module 1 to modules with higher KME.
+  ..reassigning 244 genes from module 2 to modules with higher KME.
+  ..reassigning 140 genes from module 3 to modules with higher KME.
+  ..reassigning 417 genes from module 4 to modules with higher KME.
+  ..reassigning 78 genes from module 5 to modules with higher KME.
+  ..reassigning 80 genes from module 6 to modules with higher KME.
+  ..reassigning 25 genes from module 7 to modules with higher KME.
+  ..reassigning 5 genes from module 8 to modules with higher KME.
+  ..reassigning 65 genes from module 9 to modules with higher KME.
+  ..reassigning 10 genes from module 10 to modules with higher KME.
+  ..reassigning 2 genes from module 11 to modules with higher KME.
+  ..reassigning 16 genes from module 12 to modules with higher KME.
+  ..reassigning 27 genes from module 13 to modules with higher KME.
+  ..reassigning 7 genes from module 14 to modules with higher KME.
+  ..reassigning 8 genes from module 15 to modules with higher KME.
+  ..reassigning 9 genes from module 16 to modules with higher KME.
+  ..reassigning 9 genes from module 17 to modules with higher KME.
+  ..reassigning 9 genes from module 18 to modules with higher KME.
+  ..reassigning 1 genes from module 20 to modules with higher KME.
+  ..reassigning 7 genes from module 21 to modules with higher KME.
+  ..reassigning 3 genes from module 22 to modules with higher KME.
+  ..reassigning 1 genes from module 23 to modules with higher KME.
+  ..reassigning 1 genes from module 24 to modules with higher KME.
+  ..reassigning 3 genes from module 25 to modules with higher KME.
+  ..reassigning 2 genes from module 27 to modules with higher KME.
+  ..reassigning 1 genes from module 28 to modules with higher KME.
+  ..reassigning 1 genes from module 30 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       99% 
+0.08808848 
+[1] "Next group: 4074"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2  0.00435 -0.109          0.537  2930.0    2950.0   5960
+2     4  0.36900 -1.400          0.697   898.0     803.0   2800
+3     6  0.52700 -1.760          0.823   355.0     272.0   1530
+4     8  0.63600 -1.860          0.897   162.0     105.0    902
+5    10  0.72300 -1.890          0.952    80.3      44.1    561
+6    12  0.76300 -1.950          0.971    42.6      19.9    362
+[1] 12
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./4074/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 128 module eigengenes in given set.
+ ....checking kME in modules..
+     ..removing 1 genes from module 1 because their KME is too low.
+  ..reassigning 109 genes from module 1 to modules with higher KME.
+  ..reassigning 128 genes from module 2 to modules with higher KME.
+  ..reassigning 68 genes from module 3 to modules with higher KME.
+  ..reassigning 48 genes from module 4 to modules with higher KME.
+  ..reassigning 99 genes from module 5 to modules with higher KME.
+  ..reassigning 82 genes from module 6 to modules with higher KME.
+  ..reassigning 108 genes from module 7 to modules with higher KME.
+  ..reassigning 59 genes from module 8 to modules with higher KME.
+  ..reassigning 74 genes from module 9 to modules with higher KME.
+  ..reassigning 11 genes from module 10 to modules with higher KME.
+  ..reassigning 40 genes from module 11 to modules with higher KME.
+  ..reassigning 58 genes from module 12 to modules with higher KME.
+  ..reassigning 51 genes from module 13 to modules with higher KME.
+  ..reassigning 28 genes from module 14 to modules with higher KME.
+  ..reassigning 16 genes from module 15 to modules with higher KME.
+  ..reassigning 24 genes from module 16 to modules with higher KME.
+  ..reassigning 34 genes from module 17 to modules with higher KME.
+  ..reassigning 4 genes from module 18 to modules with higher KME.
+  ..reassigning 51 genes from module 19 to modules with higher KME.
+  ..reassigning 22 genes from module 20 to modules with higher KME.
+  ..reassigning 11 genes from module 21 to modules with higher KME.
+  ..reassigning 17 genes from module 22 to modules with higher KME.
+  ..reassigning 12 genes from module 23 to modules with higher KME.
+  ..reassigning 11 genes from module 24 to modules with higher KME.
+  ..reassigning 8 genes from module 25 to modules with higher KME.
+  ..reassigning 10 genes from module 26 to modules with higher KME.
+  ..reassigning 10 genes from module 27 to modules with higher KME.
+  ..reassigning 10 genes from module 28 to modules with higher KME.
+  ..reassigning 22 genes from module 29 to modules with higher KME.
+  ..reassigning 11 genes from module 30 to modules with higher KME.
+  ..reassigning 6 genes from module 31 to modules with higher KME.
+  ..reassigning 4 genes from module 32 to modules with higher KME.
+  ..reassigning 8 genes from module 33 to modules with higher KME.
+  ..reassigning 14 genes from module 34 to modules with higher KME.
+  ..reassigning 5 genes from module 35 to modules with higher KME.
+  ..reassigning 5 genes from module 36 to modules with higher KME.
+  ..reassigning 7 genes from module 37 to modules with higher KME.
+  ..reassigning 8 genes from module 38 to modules with higher KME.
+  ..reassigning 4 genes from module 39 to modules with higher KME.
+  ..reassigning 9 genes from module 40 to modules with higher KME.
+  ..reassigning 5 genes from module 41 to modules with higher KME.
+  ..reassigning 5 genes from module 42 to modules with higher KME.
+  ..reassigning 3 genes from module 43 to modules with higher KME.
+  ..reassigning 13 genes from module 44 to modules with higher KME.
+  ..reassigning 9 genes from module 45 to modules with higher KME.
+  ..reassigning 4 genes from module 46 to modules with higher KME.
+  ..reassigning 2 genes from module 47 to modules with higher KME.
+  ..reassigning 3 genes from module 48 to modules with higher KME.
+  ..reassigning 6 genes from module 49 to modules with higher KME.
+  ..reassigning 6 genes from module 50 to modules with higher KME.
+  ..reassigning 6 genes from module 51 to modules with higher KME.
+  ..reassigning 3 genes from module 52 to modules with higher KME.
+  ..reassigning 3 genes from module 53 to modules with higher KME.
+  ..reassigning 4 genes from module 54 to modules with higher KME.
+  ..reassigning 6 genes from module 55 to modules with higher KME.
+  ..reassigning 3 genes from module 56 to modules with higher KME.
+  ..reassigning 4 genes from module 57 to modules with higher KME.
+  ..reassigning 6 genes from module 58 to modules with higher KME.
+  ..reassigning 4 genes from module 59 to modules with higher KME.
+  ..reassigning 1 genes from module 60 to modules with higher KME.
+  ..reassigning 3 genes from module 61 to modules with higher KME.
+  ..reassigning 4 genes from module 62 to modules with higher KME.
+  ..reassigning 3 genes from module 63 to modules with higher KME.
+  ..reassigning 7 genes from module 64 to modules with higher KME.
+  ..reassigning 2 genes from module 65 to modules with higher KME.
+  ..reassigning 5 genes from module 66 to modules with higher KME.
+  ..reassigning 3 genes from module 67 to modules with higher KME.
+  ..reassigning 3 genes from module 68 to modules with higher KME.
+  ..reassigning 2 genes from module 69 to modules with higher KME.
+  ..reassigning 5 genes from module 70 to modules with higher KME.
+  ..reassigning 1 genes from module 71 to modules with higher KME.
+  ..reassigning 2 genes from module 72 to modules with higher KME.
+  ..reassigning 2 genes from module 73 to modules with higher KME.
+  ..reassigning 1 genes from module 74 to modules with higher KME.
+  ..reassigning 2 genes from module 75 to modules with higher KME.
+  ..reassigning 3 genes from module 76 to modules with higher KME.
+  ..reassigning 1 genes from module 77 to modules with higher KME.
+  ..reassigning 1 genes from module 78 to modules with higher KME.
+  ..reassigning 1 genes from module 79 to modules with higher KME.
+  ..reassigning 1 genes from module 80 to modules with higher KME.
+  ..reassigning 3 genes from module 81 to modules with higher KME.
+  ..reassigning 1 genes from module 83 to modules with higher KME.
+  ..reassigning 3 genes from module 84 to modules with higher KME.
+  ..reassigning 2 genes from module 85 to modules with higher KME.
+  ..reassigning 1 genes from module 86 to modules with higher KME.
+  ..reassigning 1 genes from module 87 to modules with higher KME.
+  ..reassigning 1 genes from module 89 to modules with higher KME.
+  ..reassigning 1 genes from module 90 to modules with higher KME.
+  ..reassigning 1 genes from module 91 to modules with higher KME.
+  ..reassigning 3 genes from module 92 to modules with higher KME.
+  ..reassigning 1 genes from module 93 to modules with higher KME.
+  ..reassigning 1 genes from module 97 to modules with higher KME.
+  ..reassigning 1 genes from module 98 to modules with higher KME.
+  ..reassigning 2 genes from module 100 to modules with higher KME.
+  ..reassigning 1 genes from module 102 to modules with higher KME.
+  ..reassigning 1 genes from module 103 to modules with higher KME.
+  ..reassigning 2 genes from module 105 to modules with higher KME.
+  ..reassigning 2 genes from module 107 to modules with higher KME.
+  ..reassigning 1 genes from module 108 to modules with higher KME.
+  ..reassigning 1 genes from module 114 to modules with higher KME.
+  ..reassigning 2 genes from module 119 to modules with higher KME.
+  ..reassigning 1 genes from module 123 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       99% 
+0.04966158 
+[1] "Next group: 3247"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.872  0.606          0.842    7140      7390  11600
+2     4    0.463 -0.235          0.509    3710      3310   8200
+3     6    0.702 -0.488          0.775    2300      1620   6320
+4     8    0.732 -0.595          0.796    1580       828   5130
+5    10    0.741 -0.642          0.784    1150       438   4300
+6    12    0.737 -0.678          0.734     884       236   3680
+[1] 2
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./3247/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 1 module eigengenes in given set.
+ ....checking kME in modules..
+     ..removing 640 genes from module 1 because their KME is too low.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+     mergeCloseModules: less than two proper modules.
+      ..color levels are grey, turquoise
+      ..there is nothing to merge.
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+      99% 
+0.6918054 
+[1] "Next group: 769"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.130 -0.544          0.923 1390.00   1350.00   3160
+2     4    0.710 -1.600          0.981  265.00    218.00   1130
+3     6    0.832 -1.910          0.983   76.30     50.00    539
+4     8    0.896 -1.920          0.987   27.90     13.90    293
+5    10    0.944 -1.850          0.995   12.00      4.46    176
+6    12    0.953 -1.850          0.993    5.79      1.59    121
+[1] 8
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./769/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 73 module eigengenes in given set.
+ ....checking kME in modules..
+     ..removing 4 genes from module 3 because their KME is too low.
+  ..reassigning 38 genes from module 1 to modules with higher KME.
+  ..reassigning 92 genes from module 2 to modules with higher KME.
+  ..reassigning 40 genes from module 3 to modules with higher KME.
+  ..reassigning 13 genes from module 4 to modules with higher KME.
+  ..reassigning 1 genes from module 5 to modules with higher KME.
+  ..reassigning 31 genes from module 6 to modules with higher KME.
+  ..reassigning 5 genes from module 7 to modules with higher KME.
+  ..reassigning 4 genes from module 9 to modules with higher KME.
+  ..reassigning 5 genes from module 10 to modules with higher KME.
+  ..reassigning 9 genes from module 11 to modules with higher KME.
+  ..reassigning 5 genes from module 12 to modules with higher KME.
+  ..reassigning 12 genes from module 13 to modules with higher KME.
+  ..reassigning 1 genes from module 14 to modules with higher KME.
+  ..reassigning 1 genes from module 15 to modules with higher KME.
+  ..reassigning 15 genes from module 16 to modules with higher KME.
+  ..reassigning 3 genes from module 17 to modules with higher KME.
+  ..reassigning 19 genes from module 18 to modules with higher KME.
+  ..reassigning 5 genes from module 19 to modules with higher KME.
+  ..reassigning 1 genes from module 20 to modules with higher KME.
+  ..reassigning 9 genes from module 21 to modules with higher KME.
+  ..reassigning 13 genes from module 22 to modules with higher KME.
+  ..reassigning 1 genes from module 23 to modules with higher KME.
+  ..reassigning 2 genes from module 24 to modules with higher KME.
+  ..reassigning 1 genes from module 25 to modules with higher KME.
+  ..reassigning 5 genes from module 26 to modules with higher KME.
+  ..reassigning 4 genes from module 28 to modules with higher KME.
+  ..reassigning 4 genes from module 29 to modules with higher KME.
+  ..reassigning 1 genes from module 30 to modules with higher KME.
+  ..reassigning 3 genes from module 31 to modules with higher KME.
+  ..reassigning 1 genes from module 32 to modules with higher KME.
+  ..reassigning 3 genes from module 33 to modules with higher KME.
+  ..reassigning 3 genes from module 34 to modules with higher KME.
+  ..reassigning 4 genes from module 35 to modules with higher KME.
+  ..reassigning 2 genes from module 36 to modules with higher KME.
+  ..reassigning 1 genes from module 37 to modules with higher KME.
+  ..reassigning 2 genes from module 38 to modules with higher KME.
+  ..reassigning 2 genes from module 39 to modules with higher KME.
+  ..reassigning 3 genes from module 40 to modules with higher KME.
+  ..reassigning 8 genes from module 41 to modules with higher KME.
+  ..reassigning 6 genes from module 42 to modules with higher KME.
+  ..reassigning 2 genes from module 43 to modules with higher KME.
+  ..reassigning 2 genes from module 44 to modules with higher KME.
+  ..reassigning 4 genes from module 45 to modules with higher KME.
+  ..reassigning 2 genes from module 47 to modules with higher KME.
+  ..reassigning 4 genes from module 48 to modules with higher KME.
+  ..reassigning 2 genes from module 49 to modules with higher KME.
+  ..reassigning 1 genes from module 52 to modules with higher KME.
+  ..reassigning 3 genes from module 57 to modules with higher KME.
+  ..reassigning 2 genes from module 58 to modules with higher KME.
+  ..reassigning 1 genes from module 59 to modules with higher KME.
+  ..reassigning 2 genes from module 61 to modules with higher KME.
+  ..reassigning 1 genes from module 66 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       99% 
+0.04629458 
+[1] "Next group: 3382"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.295 -0.435          0.429  3170.0   3140.00   7410
+2     4    0.619 -1.050          0.801  1020.0    758.00   3940
+3     6    0.693 -1.340          0.880   420.0    217.00   2380
+4     8    0.759 -1.470          0.933   200.0     70.10   1550
+5    10    0.804 -1.540          0.956   105.0     25.20   1060
+6    12    0.834 -1.570          0.970    58.8      9.82    757
+[1] 12
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./3382/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 22 module eigengenes in given set.
+ ....checking kME in modules..
+     ..removing 4 genes from module 1 because their KME is too low.
+     ..removing 1 genes from module 2 because their KME is too low.
+  ..reassigning 670 genes from module 1 to modules with higher KME.
+  ..reassigning 154 genes from module 2 to modules with higher KME.
+  ..reassigning 108 genes from module 3 to modules with higher KME.
+  ..reassigning 11 genes from module 4 to modules with higher KME.
+  ..reassigning 2 genes from module 5 to modules with higher KME.
+  ..reassigning 3 genes from module 7 to modules with higher KME.
+  ..reassigning 18 genes from module 8 to modules with higher KME.
+  ..reassigning 8 genes from module 9 to modules with higher KME.
+  ..reassigning 1 genes from module 10 to modules with higher KME.
+  ..reassigning 4 genes from module 11 to modules with higher KME.
+  ..reassigning 1 genes from module 12 to modules with higher KME.
+  ..reassigning 8 genes from module 13 to modules with higher KME.
+  ..reassigning 1 genes from module 14 to modules with higher KME.
+  ..reassigning 1 genes from module 16 to modules with higher KME.
+  ..reassigning 1 genes from module 17 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+      99% 
+0.1055647 
+[1] "Next group: 1967"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.143 -0.824          0.945  725.00   676.000 1730.0
+2     4    0.942 -1.930          0.988   90.10    63.600  561.0
+3     6    0.987 -1.780          0.992   21.30     9.200  303.0
+4     8    0.981 -1.590          0.984    7.56     1.730  195.0
+5    10    0.973 -1.480          0.979    3.45     0.395  136.0
+6    12    0.976 -1.400          0.984    1.84     0.105   98.9
+[1] 4
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./1967/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 22 module eigengenes in given set.
+ ....checking kME in modules..
+     ..removing 785 genes from module 1 because their KME is too low.
+     ..removing 265 genes from module 2 because their KME is too low.
+     ..removing 362 genes from module 3 because their KME is too low.
+     ..removing 84 genes from module 4 because their KME is too low.
+     ..removing 21 genes from module 5 because their KME is too low.
+     ..removing 16 genes from module 6 because their KME is too low.
+     ..removing 161 genes from module 7 because their KME is too low.
+     ..removing 32 genes from module 8 because their KME is too low.
+     ..removing 10 genes from module 9 because their KME is too low.
+     ..removing 11 genes from module 10 because their KME is too low.
+     ..removing 4 genes from module 11 because their KME is too low.
+     ..removing 1 genes from module 13 because their KME is too low.
+     ..removing 2 genes from module 14 because their KME is too low.
+     ..removing 13 genes from module 15 because their KME is too low.
+     ..removing 1 genes from module 16 because their KME is too low.
+     ..removing 1 genes from module 17 because their KME is too low.
+     ..removing 4 genes from module 19 because their KME is too low.
+     ..removing 5 genes from module 20 because their KME is too low.
+  ..reassigning 53 genes from module 1 to modules with higher KME.
+  ..reassigning 49 genes from module 2 to modules with higher KME.
+  ..reassigning 26 genes from module 3 to modules with higher KME.
+  ..reassigning 14 genes from module 4 to modules with higher KME.
+  ..reassigning 3 genes from module 6 to modules with higher KME.
+  ..reassigning 2 genes from module 7 to modules with higher KME.
+  ..reassigning 3 genes from module 9 to modules with higher KME.
+  ..reassigning 1 genes from module 11 to modules with higher KME.
+  ..reassigning 1 genes from module 13 to modules with higher KME.
+  ..reassigning 1 genes from module 15 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       99% 
+0.08924107 
+[1] "Next group: 1596"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.301 -1.77          0.955 1080.00  1050.000 2610.0
+2     4    0.646 -2.63          0.981  163.00   142.000  725.0
+3     6    0.730 -2.61          0.970   38.50    28.400  263.0
+4     8    0.920 -2.14          0.994   11.90     6.950  126.0
+5    10    0.955 -2.13          0.985    4.47     1.970   82.7
+6    12    0.960 -2.02          0.976    1.94     0.624   58.6
+[1] 8
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./1596/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 60 module eigengenes in given set.
+ ....checking kME in modules..
+     ..removing 1 genes from module 47 because their KME is too low.
+  ..reassigning 45 genes from module 1 to modules with higher KME.
+  ..reassigning 2 genes from module 2 to modules with higher KME.
+  ..reassigning 1 genes from module 3 to modules with higher KME.
+  ..reassigning 16 genes from module 4 to modules with higher KME.
+  ..reassigning 3 genes from module 5 to modules with higher KME.
+  ..reassigning 12 genes from module 7 to modules with higher KME.
+  ..reassigning 1 genes from module 9 to modules with higher KME.
+  ..reassigning 5 genes from module 10 to modules with higher KME.
+  ..reassigning 3 genes from module 12 to modules with higher KME.
+  ..reassigning 4 genes from module 13 to modules with higher KME.
+  ..reassigning 3 genes from module 17 to modules with higher KME.
+  ..reassigning 1 genes from module 22 to modules with higher KME.
+  ..reassigning 1 genes from module 25 to modules with higher KME.
+  ..reassigning 1 genes from module 26 to modules with higher KME.
+  ..reassigning 2 genes from module 28 to modules with higher KME.
+  ..reassigning 1 genes from module 37 to modules with higher KME.
+  ..reassigning 1 genes from module 38 to modules with higher KME.
+  ..reassigning 1 genes from module 42 to modules with higher KME.
+  ..reassigning 1 genes from module 44 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       99% 
+0.01819176 
+[1] "Next group: 9261"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.480 -1.82          0.893 1160.00  1040.000 3010.0
+2     4    0.688 -2.20          0.935  182.00   133.000  861.0
+3     6    0.774 -2.12          0.974   43.00    24.600  307.0
+4     8    0.813 -2.06          0.987   12.90     5.790  124.0
+5    10    0.829 -2.09          0.992    4.59     1.600   58.1
+6    12    0.824 -2.10          0.986    1.84     0.499   29.3
+[1] 10
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./9261/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 74 module eigengenes in given set.
+ ....checking kME in modules..
+     ..removing 1 genes from module 49 because their KME is too low.
+  ..reassigning 10 genes from module 1 to modules with higher KME.
+  ..reassigning 1 genes from module 9 to modules with higher KME.
+  ..reassigning 1 genes from module 12 to modules with higher KME.
+  ..reassigning 1 genes from module 20 to modules with higher KME.
+  ..reassigning 1 genes from module 27 to modules with higher KME.
+  ..reassigning 1 genes from module 28 to modules with higher KME.
+  ..reassigning 1 genes from module 31 to modules with higher KME.
+  ..reassigning 1 genes from module 57 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+        99% 
+0.007678519 
+[1] "Next group: 0050902"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.400 -0.62          0.754  2720.0    2480.0   6390
+2     4    0.767 -1.21          0.891   848.0     578.0   3380
+3     6    0.797 -1.40          0.916   358.0     173.0   2110
+4     8    0.828 -1.48          0.943   178.0      60.6   1430
+5    10    0.853 -1.52          0.961    98.2      24.2   1030
+6    12    0.869 -1.55          0.970    58.4      10.5    770
+[1] 10
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./0050902/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 49 module eigengenes in given set.
+ ....checking kME in modules..
+     ..removing 7 genes from module 1 because their KME is too low.
+     ..removing 1 genes from module 4 because their KME is too low.
+     ..removing 1 genes from module 5 because their KME is too low.
+     ..removing 1 genes from module 9 because their KME is too low.
+  ..reassigning 786 genes from module 1 to modules with higher KME.
+  ..reassigning 56 genes from module 2 to modules with higher KME.
+  ..reassigning 91 genes from module 3 to modules with higher KME.
+  ..reassigning 50 genes from module 4 to modules with higher KME.
+  ..reassigning 44 genes from module 5 to modules with higher KME.
+  ..reassigning 14 genes from module 6 to modules with higher KME.
+  ..reassigning 24 genes from module 7 to modules with higher KME.
+  ..reassigning 18 genes from module 8 to modules with higher KME.
+  ..reassigning 13 genes from module 9 to modules with higher KME.
+  ..reassigning 9 genes from module 10 to modules with higher KME.
+  ..reassigning 14 genes from module 11 to modules with higher KME.
+  ..reassigning 16 genes from module 12 to modules with higher KME.
+  ..reassigning 6 genes from module 13 to modules with higher KME.
+  ..reassigning 17 genes from module 14 to modules with higher KME.
+  ..reassigning 12 genes from module 15 to modules with higher KME.
+  ..reassigning 4 genes from module 16 to modules with higher KME.
+  ..reassigning 3 genes from module 17 to modules with higher KME.
+  ..reassigning 6 genes from module 19 to modules with higher KME.
+  ..reassigning 9 genes from module 20 to modules with higher KME.
+  ..reassigning 5 genes from module 21 to modules with higher KME.
+  ..reassigning 3 genes from module 22 to modules with higher KME.
+  ..reassigning 4 genes from module 23 to modules with higher KME.
+  ..reassigning 8 genes from module 24 to modules with higher KME.
+  ..reassigning 2 genes from module 25 to modules with higher KME.
+  ..reassigning 1 genes from module 26 to modules with higher KME.
+  ..reassigning 4 genes from module 28 to modules with higher KME.
+  ..reassigning 1 genes from module 29 to modules with higher KME.
+  ..reassigning 1 genes from module 30 to modules with higher KME.
+  ..reassigning 2 genes from module 32 to modules with higher KME.
+  ..reassigning 2 genes from module 33 to modules with higher KME.
+  ..reassigning 4 genes from module 34 to modules with higher KME.
+  ..reassigning 1 genes from module 35 to modules with higher KME.
+  ..reassigning 3 genes from module 38 to modules with higher KME.
+  ..reassigning 2 genes from module 39 to modules with higher KME.
+  ..reassigning 1 genes from module 40 to modules with higher KME.
+  ..reassigning 1 genes from module 41 to modules with higher KME.
+  ..reassigning 1 genes from module 42 to modules with higher KME.
+  ..reassigning 1 genes from module 45 to modules with higher KME.
+  ..reassigning 3 genes from module 47 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+      99% 
+0.1471629 
+[1] "Next group: 9074"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.124 -0.368          0.536  3150.0    3140.0   7010
+2     4    0.564 -1.150          0.815  1000.0     831.0   3570
+3     6    0.678 -1.420          0.911   412.0     269.0   2070
+4     8    0.727 -1.580          0.948   197.0      98.8   1300
+5    10    0.765 -1.670          0.968   103.0      40.1    864
+6    12    0.798 -1.710          0.982    58.3      17.4    596
+[1] 12
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./9074/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 81 module eigengenes in given set.
+ ....checking kME in modules..
+  ..reassigning 284 genes from module 1 to modules with higher KME.
+  ..reassigning 17 genes from module 2 to modules with higher KME.
+  ..reassigning 81 genes from module 3 to modules with higher KME.
+  ..reassigning 10 genes from module 4 to modules with higher KME.
+  ..reassigning 59 genes from module 5 to modules with higher KME.
+  ..reassigning 43 genes from module 6 to modules with higher KME.
+  ..reassigning 41 genes from module 7 to modules with higher KME.
+  ..reassigning 20 genes from module 8 to modules with higher KME.
+  ..reassigning 40 genes from module 9 to modules with higher KME.
+  ..reassigning 12 genes from module 10 to modules with higher KME.
+  ..reassigning 50 genes from module 11 to modules with higher KME.
+  ..reassigning 39 genes from module 12 to modules with higher KME.
+  ..reassigning 33 genes from module 13 to modules with higher KME.
+  ..reassigning 4 genes from module 14 to modules with higher KME.
+  ..reassigning 2 genes from module 15 to modules with higher KME.
+  ..reassigning 29 genes from module 16 to modules with higher KME.
+  ..reassigning 18 genes from module 17 to modules with higher KME.
+  ..reassigning 44 genes from module 18 to modules with higher KME.
+  ..reassigning 1 genes from module 19 to modules with higher KME.
+  ..reassigning 6 genes from module 20 to modules with higher KME.
+  ..reassigning 11 genes from module 21 to modules with higher KME.
+  ..reassigning 13 genes from module 22 to modules with higher KME.
+  ..reassigning 5 genes from module 23 to modules with higher KME.
+  ..reassigning 15 genes from module 24 to modules with higher KME.
+  ..reassigning 7 genes from module 25 to modules with higher KME.
+  ..reassigning 10 genes from module 26 to modules with higher KME.
+  ..reassigning 14 genes from module 27 to modules with higher KME.
+  ..reassigning 13 genes from module 28 to modules with higher KME.
+  ..reassigning 9 genes from module 29 to modules with higher KME.
+  ..reassigning 9 genes from module 30 to modules with higher KME.
+  ..reassigning 1 genes from module 31 to modules with higher KME.
+  ..reassigning 6 genes from module 32 to modules with higher KME.
+  ..reassigning 18 genes from module 33 to modules with higher KME.
+  ..reassigning 8 genes from module 35 to modules with higher KME.
+  ..reassigning 2 genes from module 36 to modules with higher KME.
+  ..reassigning 11 genes from module 38 to modules with higher KME.
+  ..reassigning 5 genes from module 39 to modules with higher KME.
+  ..reassigning 1 genes from module 40 to modules with higher KME.
+  ..reassigning 17 genes from module 41 to modules with higher KME.
+  ..reassigning 2 genes from module 42 to modules with higher KME.
+  ..reassigning 8 genes from module 44 to modules with higher KME.
+  ..reassigning 2 genes from module 45 to modules with higher KME.
+  ..reassigning 2 genes from module 47 to modules with higher KME.
+  ..reassigning 1 genes from module 48 to modules with higher KME.
+  ..reassigning 1 genes from module 49 to modules with higher KME.
+  ..reassigning 1 genes from module 50 to modules with higher KME.
+  ..reassigning 2 genes from module 51 to modules with higher KME.
+  ..reassigning 3 genes from module 52 to modules with higher KME.
+  ..reassigning 3 genes from module 54 to modules with higher KME.
+  ..reassigning 1 genes from module 55 to modules with higher KME.
+  ..reassigning 3 genes from module 56 to modules with higher KME.
+  ..reassigning 2 genes from module 57 to modules with higher KME.
+  ..reassigning 2 genes from module 58 to modules with higher KME.
+  ..reassigning 1 genes from module 60 to modules with higher KME.
+  ..reassigning 1 genes from module 62 to modules with higher KME.
+  ..reassigning 3 genes from module 65 to modules with higher KME.
+  ..reassigning 1 genes from module 66 to modules with higher KME.
+  ..reassigning 2 genes from module 67 to modules with higher KME.
+  ..reassigning 1 genes from module 72 to modules with higher KME.
+  ..reassigning 3 genes from module 74 to modules with higher KME.
+  ..reassigning 2 genes from module 77 to modules with higher KME.
+  ..reassigning 1 genes from module 80 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       99% 
+0.07847899 
+[1] "Next group: 289"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.347 -0.754          0.780  1710.0   1520.00   4280
+2     4    0.697 -1.420          0.867   379.0    248.00   1670
+3     6    0.742 -1.580          0.909   122.0     55.60    797
+4     8    0.797 -1.590          0.953    48.3     15.70    427
+5    10    0.840 -1.590          0.974    22.0      5.10    249
+6    12    0.862 -1.640          0.983    11.1      1.83    164
+[1] 12
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./289/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 73 module eigengenes in given set.
+ ....checking kME in modules..
+  ..reassigning 52 genes from module 1 to modules with higher KME.
+  ..reassigning 50 genes from module 2 to modules with higher KME.
+  ..reassigning 14 genes from module 3 to modules with higher KME.
+  ..reassigning 16 genes from module 4 to modules with higher KME.
+  ..reassigning 13 genes from module 5 to modules with higher KME.
+  ..reassigning 18 genes from module 6 to modules with higher KME.
+  ..reassigning 26 genes from module 7 to modules with higher KME.
+  ..reassigning 4 genes from module 8 to modules with higher KME.
+  ..reassigning 18 genes from module 9 to modules with higher KME.
+  ..reassigning 3 genes from module 11 to modules with higher KME.
+  ..reassigning 6 genes from module 12 to modules with higher KME.
+  ..reassigning 10 genes from module 13 to modules with higher KME.
+  ..reassigning 5 genes from module 14 to modules with higher KME.
+  ..reassigning 5 genes from module 15 to modules with higher KME.
+  ..reassigning 5 genes from module 16 to modules with higher KME.
+  ..reassigning 5 genes from module 17 to modules with higher KME.
+  ..reassigning 2 genes from module 18 to modules with higher KME.
+  ..reassigning 8 genes from module 19 to modules with higher KME.
+  ..reassigning 2 genes from module 20 to modules with higher KME.
+  ..reassigning 2 genes from module 21 to modules with higher KME.
+  ..reassigning 2 genes from module 22 to modules with higher KME.
+  ..reassigning 4 genes from module 23 to modules with higher KME.
+  ..reassigning 2 genes from module 24 to modules with higher KME.
+  ..reassigning 3 genes from module 25 to modules with higher KME.
+  ..reassigning 3 genes from module 26 to modules with higher KME.
+  ..reassigning 7 genes from module 27 to modules with higher KME.
+  ..reassigning 1 genes from module 28 to modules with higher KME.
+  ..reassigning 2 genes from module 29 to modules with higher KME.
+  ..reassigning 1 genes from module 30 to modules with higher KME.
+  ..reassigning 1 genes from module 31 to modules with higher KME.
+  ..reassigning 2 genes from module 34 to modules with higher KME.
+  ..reassigning 1 genes from module 35 to modules with higher KME.
+  ..reassigning 2 genes from module 38 to modules with higher KME.
+  ..reassigning 1 genes from module 40 to modules with higher KME.
+  ..reassigning 3 genes from module 41 to modules with higher KME.
+  ..reassigning 2 genes from module 44 to modules with higher KME.
+  ..reassigning 1 genes from module 47 to modules with higher KME.
+  ..reassigning 1 genes from module 48 to modules with higher KME.
+  ..reassigning 1 genes from module 51 to modules with higher KME.
+  ..reassigning 1 genes from module 54 to modules with higher KME.
+  ..reassigning 1 genes from module 60 to modules with higher KME.
+  ..reassigning 1 genes from module 70 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       99% 
+0.02560952 
+[1] "Next group: 0050909"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2   0.0265  0.309          0.849  2050.0    2050.0   4000
+2     4   0.3680 -1.220          0.834   529.0     491.0   1550
+3     6   0.5530 -1.670          0.890   194.0     160.0    759
+4     8   0.6470 -1.860          0.937    85.8      62.2    435
+5    10   0.7140 -1.960          0.966    42.8      27.1    271
+6    12   0.7510 -2.020          0.981    23.1      12.7    177
+[1] 12
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./0050909/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 193 module eigengenes in given set.
+ ....checking kME in modules..
+  ..reassigning 8 genes from module 1 to modules with higher KME.
+  ..reassigning 30 genes from module 2 to modules with higher KME.
+  ..reassigning 10 genes from module 3 to modules with higher KME.
+  ..reassigning 3 genes from module 4 to modules with higher KME.
+  ..reassigning 6 genes from module 5 to modules with higher KME.
+  ..reassigning 10 genes from module 6 to modules with higher KME.
+  ..reassigning 6 genes from module 7 to modules with higher KME.
+  ..reassigning 1 genes from module 8 to modules with higher KME.
+  ..reassigning 6 genes from module 9 to modules with higher KME.
+  ..reassigning 5 genes from module 10 to modules with higher KME.
+  ..reassigning 7 genes from module 11 to modules with higher KME.
+  ..reassigning 3 genes from module 12 to modules with higher KME.
+  ..reassigning 2 genes from module 13 to modules with higher KME.
+  ..reassigning 2 genes from module 14 to modules with higher KME.
+  ..reassigning 3 genes from module 15 to modules with higher KME.
+  ..reassigning 4 genes from module 16 to modules with higher KME.
+  ..reassigning 1 genes from module 17 to modules with higher KME.
+  ..reassigning 5 genes from module 18 to modules with higher KME.
+  ..reassigning 2 genes from module 19 to modules with higher KME.
+  ..reassigning 2 genes from module 21 to modules with higher KME.
+  ..reassigning 3 genes from module 22 to modules with higher KME.
+  ..reassigning 3 genes from module 23 to modules with higher KME.
+  ..reassigning 6 genes from module 24 to modules with higher KME.
+  ..reassigning 6 genes from module 25 to modules with higher KME.
+  ..reassigning 2 genes from module 26 to modules with higher KME.
+  ..reassigning 2 genes from module 27 to modules with higher KME.
+  ..reassigning 1 genes from module 28 to modules with higher KME.
+  ..reassigning 2 genes from module 29 to modules with higher KME.
+  ..reassigning 1 genes from module 30 to modules with higher KME.
+  ..reassigning 1 genes from module 31 to modules with higher KME.
+  ..reassigning 1 genes from module 32 to modules with higher KME.
+  ..reassigning 2 genes from module 33 to modules with higher KME.
+  ..reassigning 4 genes from module 34 to modules with higher KME.
+  ..reassigning 2 genes from module 35 to modules with higher KME.
+  ..reassigning 1 genes from module 36 to modules with higher KME.
+  ..reassigning 1 genes from module 38 to modules with higher KME.
+  ..reassigning 1 genes from module 39 to modules with higher KME.
+  ..reassigning 1 genes from module 41 to modules with higher KME.
+  ..reassigning 1 genes from module 42 to modules with higher KME.
+  ..reassigning 1 genes from module 44 to modules with higher KME.
+  ..reassigning 1 genes from module 46 to modules with higher KME.
+  ..reassigning 2 genes from module 48 to modules with higher KME.
+  ..reassigning 2 genes from module 49 to modules with higher KME.
+  ..reassigning 2 genes from module 50 to modules with higher KME.
+  ..reassigning 1 genes from module 54 to modules with higher KME.
+  ..reassigning 1 genes from module 57 to modules with higher KME.
+  ..reassigning 4 genes from module 60 to modules with higher KME.
+  ..reassigning 4 genes from module 61 to modules with higher KME.
+  ..reassigning 1 genes from module 64 to modules with higher KME.
+  ..reassigning 1 genes from module 69 to modules with higher KME.
+  ..reassigning 2 genes from module 72 to modules with higher KME.
+  ..reassigning 1 genes from module 73 to modules with higher KME.
+  ..reassigning 2 genes from module 75 to modules with higher KME.
+  ..reassigning 1 genes from module 76 to modules with higher KME.
+  ..reassigning 3 genes from module 79 to modules with higher KME.
+  ..reassigning 3 genes from module 80 to modules with higher KME.
+  ..reassigning 2 genes from module 81 to modules with higher KME.
+  ..reassigning 1 genes from module 82 to modules with higher KME.
+  ..reassigning 1 genes from module 84 to modules with higher KME.
+  ..reassigning 1 genes from module 86 to modules with higher KME.
+  ..reassigning 1 genes from module 87 to modules with higher KME.
+  ..reassigning 1 genes from module 88 to modules with higher KME.
+  ..reassigning 2 genes from module 92 to modules with higher KME.
+  ..reassigning 1 genes from module 95 to modules with higher KME.
+  ..reassigning 1 genes from module 102 to modules with higher KME.
+  ..reassigning 1 genes from module 104 to modules with higher KME.
+  ..reassigning 1 genes from module 105 to modules with higher KME.
+  ..reassigning 1 genes from module 107 to modules with higher KME.
+  ..reassigning 2 genes from module 108 to modules with higher KME.
+  ..reassigning 2 genes from module 112 to modules with higher KME.
+  ..reassigning 1 genes from module 116 to modules with higher KME.
+  ..reassigning 1 genes from module 117 to modules with higher KME.
+  ..reassigning 1 genes from module 119 to modules with higher KME.
+  ..reassigning 1 genes from module 120 to modules with higher KME.
+  ..reassigning 3 genes from module 126 to modules with higher KME.
+  ..reassigning 1 genes from module 129 to modules with higher KME.
+  ..reassigning 1 genes from module 132 to modules with higher KME.
+  ..reassigning 1 genes from module 176 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       99% 
+0.03913842 
+[1] "Next group: 3234"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2   0.0976  0.393          0.545  2740.0    2810.0   4980
+2     4   0.3810 -0.960          0.758   875.0     793.0   2580
+3     6   0.5910 -1.570          0.835   378.0     291.0   1680
+4     8   0.6740 -1.800          0.863   192.0     123.0   1190
+5    10   0.7140 -1.920          0.875   108.0      56.5    883
+6    12   0.7580 -1.930          0.898    65.3      27.8    675
+[1] 12
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./3234/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 84 module eigengenes in given set.
+ ....checking kME in modules..
+     ..removing 1 genes from module 1 because their KME is too low.
+  ..reassigning 149 genes from module 1 to modules with higher KME.
+  ..reassigning 10 genes from module 2 to modules with higher KME.
+  ..reassigning 36 genes from module 3 to modules with higher KME.
+  ..reassigning 23 genes from module 4 to modules with higher KME.
+  ..reassigning 8 genes from module 5 to modules with higher KME.
+  ..reassigning 9 genes from module 6 to modules with higher KME.
+  ..reassigning 3 genes from module 7 to modules with higher KME.
+  ..reassigning 1 genes from module 8 to modules with higher KME.
+  ..reassigning 15 genes from module 9 to modules with higher KME.
+  ..reassigning 4 genes from module 10 to modules with higher KME.
+  ..reassigning 10 genes from module 11 to modules with higher KME.
+  ..reassigning 2 genes from module 12 to modules with higher KME.
+  ..reassigning 8 genes from module 13 to modules with higher KME.
+  ..reassigning 4 genes from module 14 to modules with higher KME.
+  ..reassigning 3 genes from module 15 to modules with higher KME.
+  ..reassigning 7 genes from module 16 to modules with higher KME.
+  ..reassigning 1 genes from module 17 to modules with higher KME.
+  ..reassigning 5 genes from module 18 to modules with higher KME.
+  ..reassigning 2 genes from module 19 to modules with higher KME.
+  ..reassigning 2 genes from module 20 to modules with higher KME.
+  ..reassigning 1 genes from module 21 to modules with higher KME.
+  ..reassigning 3 genes from module 22 to modules with higher KME.
+  ..reassigning 2 genes from module 23 to modules with higher KME.
+  ..reassigning 4 genes from module 25 to modules with higher KME.
+  ..reassigning 1 genes from module 26 to modules with higher KME.
+  ..reassigning 3 genes from module 27 to modules with higher KME.
+  ..reassigning 3 genes from module 28 to modules with higher KME.
+  ..reassigning 3 genes from module 32 to modules with higher KME.
+  ..reassigning 3 genes from module 33 to modules with higher KME.
+  ..reassigning 2 genes from module 34 to modules with higher KME.
+  ..reassigning 3 genes from module 36 to modules with higher KME.
+  ..reassigning 2 genes from module 38 to modules with higher KME.
+  ..reassigning 1 genes from module 40 to modules with higher KME.
+  ..reassigning 1 genes from module 42 to modules with higher KME.
+  ..reassigning 1 genes from module 43 to modules with higher KME.
+  ..reassigning 1 genes from module 45 to modules with higher KME.
+  ..reassigning 1 genes from module 46 to modules with higher KME.
+  ..reassigning 2 genes from module 48 to modules with higher KME.
+  ..reassigning 1 genes from module 49 to modules with higher KME.
+  ..reassigning 1 genes from module 52 to modules with higher KME.
+  ..reassigning 1 genes from module 56 to modules with higher KME.
+  ..reassigning 4 genes from module 58 to modules with higher KME.
+  ..reassigning 1 genes from module 67 to modules with higher KME.
+  ..reassigning 1 genes from module 68 to modules with higher KME.
+  ..reassigning 1 genes from module 72 to modules with higher KME.
+  ..reassigning 1 genes from module 78 to modules with higher KME.
+  ..reassigning 1 genes from module 80 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+      99% 
+0.1232741 
+[1] "Next group: 7502"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.515 -0.681          0.800  2430.0   2170.00   6160
+2     4    0.796 -1.200          0.914   706.0    438.00   3140
+3     6    0.822 -1.390          0.936   283.0    116.00   1910
+4     8    0.850 -1.470          0.954   134.0     37.30   1270
+5    10    0.858 -1.530          0.958    71.5     13.40    902
+6    12    0.867 -1.560          0.963    41.1      5.25    667
+[1] 10
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./7502/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 31 module eigengenes in given set.
+ ....checking kME in modules..
+     ..removing 3 genes from module 1 because their KME is too low.
+     ..removing 2 genes from module 2 because their KME is too low.
+  ..reassigning 324 genes from module 1 to modules with higher KME.
+  ..reassigning 25 genes from module 2 to modules with higher KME.
+  ..reassigning 11 genes from module 3 to modules with higher KME.
+  ..reassigning 7 genes from module 4 to modules with higher KME.
+  ..reassigning 5 genes from module 5 to modules with higher KME.
+  ..reassigning 2 genes from module 6 to modules with higher KME.
+  ..reassigning 7 genes from module 7 to modules with higher KME.
+  ..reassigning 9 genes from module 8 to modules with higher KME.
+  ..reassigning 1 genes from module 9 to modules with higher KME.
+  ..reassigning 1 genes from module 10 to modules with higher KME.
+  ..reassigning 1 genes from module 11 to modules with higher KME.
+  ..reassigning 1 genes from module 12 to modules with higher KME.
+  ..reassigning 7 genes from module 13 to modules with higher KME.
+  ..reassigning 8 genes from module 15 to modules with higher KME.
+  ..reassigning 1 genes from module 16 to modules with higher KME.
+  ..reassigning 1 genes from module 17 to modules with higher KME.
+  ..reassigning 5 genes from module 18 to modules with higher KME.
+  ..reassigning 2 genes from module 20 to modules with higher KME.
+  ..reassigning 1 genes from module 22 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+     99% 
+0.138686 
+[1] "Next group: 3312"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.329 -0.801          0.728  2190.0   2040.00   5480
+2     4    0.620 -1.490          0.859   568.0    408.00   2490
+3     6    0.722 -1.690          0.929   203.0    109.00   1340
+4     8    0.748 -1.840          0.950    87.2     34.10    801
+5    10    0.778 -1.900          0.964    42.2     11.90    513
+6    12    0.794 -1.920          0.964    22.3      4.54    346
+[1] 12
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./3312/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 85 module eigengenes in given set.
+ ....checking kME in modules..
+  ..reassigning 48 genes from module 1 to modules with higher KME.
+  ..reassigning 42 genes from module 2 to modules with higher KME.
+  ..reassigning 20 genes from module 3 to modules with higher KME.
+  ..reassigning 12 genes from module 4 to modules with higher KME.
+  ..reassigning 17 genes from module 5 to modules with higher KME.
+  ..reassigning 31 genes from module 6 to modules with higher KME.
+  ..reassigning 9 genes from module 7 to modules with higher KME.
+  ..reassigning 4 genes from module 8 to modules with higher KME.
+  ..reassigning 6 genes from module 9 to modules with higher KME.
+  ..reassigning 6 genes from module 10 to modules with higher KME.
+  ..reassigning 18 genes from module 11 to modules with higher KME.
+  ..reassigning 8 genes from module 12 to modules with higher KME.
+  ..reassigning 7 genes from module 13 to modules with higher KME.
+  ..reassigning 8 genes from module 14 to modules with higher KME.
+  ..reassigning 2 genes from module 15 to modules with higher KME.
+  ..reassigning 3 genes from module 16 to modules with higher KME.
+  ..reassigning 6 genes from module 17 to modules with higher KME.
+  ..reassigning 7 genes from module 18 to modules with higher KME.
+  ..reassigning 6 genes from module 19 to modules with higher KME.
+  ..reassigning 3 genes from module 20 to modules with higher KME.
+  ..reassigning 6 genes from module 21 to modules with higher KME.
+  ..reassigning 5 genes from module 22 to modules with higher KME.
+  ..reassigning 5 genes from module 23 to modules with higher KME.
+  ..reassigning 1 genes from module 25 to modules with higher KME.
+  ..reassigning 2 genes from module 26 to modules with higher KME.
+  ..reassigning 1 genes from module 27 to modules with higher KME.
+  ..reassigning 3 genes from module 28 to modules with higher KME.
+  ..reassigning 1 genes from module 29 to modules with higher KME.
+  ..reassigning 1 genes from module 30 to modules with higher KME.
+  ..reassigning 2 genes from module 31 to modules with higher KME.
+  ..reassigning 1 genes from module 32 to modules with higher KME.
+  ..reassigning 2 genes from module 33 to modules with higher KME.
+  ..reassigning 2 genes from module 34 to modules with higher KME.
+  ..reassigning 4 genes from module 35 to modules with higher KME.
+  ..reassigning 5 genes from module 37 to modules with higher KME.
+  ..reassigning 2 genes from module 38 to modules with higher KME.
+  ..reassigning 3 genes from module 39 to modules with higher KME.
+  ..reassigning 1 genes from module 40 to modules with higher KME.
+  ..reassigning 2 genes from module 41 to modules with higher KME.
+  ..reassigning 1 genes from module 42 to modules with higher KME.
+  ..reassigning 1 genes from module 45 to modules with higher KME.
+  ..reassigning 1 genes from module 47 to modules with higher KME.
+  ..reassigning 1 genes from module 50 to modules with higher KME.
+  ..reassigning 1 genes from module 57 to modules with higher KME.
+  ..reassigning 1 genes from module 61 to modules with higher KME.
+  ..reassigning 1 genes from module 64 to modules with higher KME.
+  ..reassigning 1 genes from module 66 to modules with higher KME.
+  ..reassigning 1 genes from module 76 to modules with higher KME.
+  ..reassigning 1 genes from module 85 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       99% 
+0.04781812 
+[1] "Next group: 1470"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.481 -0.772          0.755  2250.0   2020.00   5810
+2     4    0.728 -1.250          0.878   632.0    406.00   2830
+3     6    0.787 -1.400          0.927   248.0    106.00   1630
+4     8    0.828 -1.450          0.958   117.0     33.10   1030
+5    10    0.850 -1.480          0.971    61.6     11.50    696
+6    12    0.870 -1.490          0.981    35.4      4.38    491
+[1] 12
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./1470/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 69 module eigengenes in given set.
+ ....checking kME in modules..
+  ..reassigning 65 genes from module 1 to modules with higher KME.
+  ..reassigning 49 genes from module 2 to modules with higher KME.
+  ..reassigning 33 genes from module 3 to modules with higher KME.
+  ..reassigning 14 genes from module 4 to modules with higher KME.
+  ..reassigning 32 genes from module 5 to modules with higher KME.
+  ..reassigning 19 genes from module 6 to modules with higher KME.
+  ..reassigning 7 genes from module 7 to modules with higher KME.
+  ..reassigning 5 genes from module 8 to modules with higher KME.
+  ..reassigning 11 genes from module 9 to modules with higher KME.
+  ..reassigning 5 genes from module 10 to modules with higher KME.
+  ..reassigning 13 genes from module 12 to modules with higher KME.
+  ..reassigning 13 genes from module 13 to modules with higher KME.
+  ..reassigning 5 genes from module 14 to modules with higher KME.
+  ..reassigning 5 genes from module 15 to modules with higher KME.
+  ..reassigning 2 genes from module 17 to modules with higher KME.
+  ..reassigning 1 genes from module 18 to modules with higher KME.
+  ..reassigning 2 genes from module 19 to modules with higher KME.
+  ..reassigning 7 genes from module 20 to modules with higher KME.
+  ..reassigning 5 genes from module 21 to modules with higher KME.
+  ..reassigning 1 genes from module 22 to modules with higher KME.
+  ..reassigning 5 genes from module 23 to modules with higher KME.
+  ..reassigning 2 genes from module 24 to modules with higher KME.
+  ..reassigning 2 genes from module 25 to modules with higher KME.
+  ..reassigning 3 genes from module 26 to modules with higher KME.
+  ..reassigning 7 genes from module 27 to modules with higher KME.
+  ..reassigning 5 genes from module 29 to modules with higher KME.
+  ..reassigning 1 genes from module 31 to modules with higher KME.
+  ..reassigning 1 genes from module 32 to modules with higher KME.
+  ..reassigning 1 genes from module 33 to modules with higher KME.
+  ..reassigning 1 genes from module 34 to modules with higher KME.
+  ..reassigning 3 genes from module 35 to modules with higher KME.
+  ..reassigning 1 genes from module 36 to modules with higher KME.
+  ..reassigning 1 genes from module 37 to modules with higher KME.
+  ..reassigning 2 genes from module 39 to modules with higher KME.
+  ..reassigning 4 genes from module 40 to modules with higher KME.
+  ..reassigning 1 genes from module 42 to modules with higher KME.
+  ..reassigning 2 genes from module 45 to modules with higher KME.
+  ..reassigning 3 genes from module 46 to modules with higher KME.
+  ..reassigning 1 genes from module 47 to modules with higher KME.
+  ..reassigning 5 genes from module 48 to modules with higher KME.
+  ..reassigning 2 genes from module 50 to modules with higher KME.
+  ..reassigning 1 genes from module 51 to modules with higher KME.
+  ..reassigning 1 genes from module 59 to modules with higher KME.
+  ..reassigning 1 genes from module 67 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       99% 
+0.08135869 
+[1] "Next group: 8778"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2   0.0314  0.333          0.723  3010.0    3130.0   5710
+2     4   0.2660 -1.010          0.835   852.0     849.0   2270
+3     6   0.4820 -1.540          0.905   309.0     291.0   1050
+4     8   0.5740 -1.700          0.937   130.0     115.0    528
+5    10   0.6260 -1.900          0.954    61.0      49.7    294
+6    12   0.6640 -2.040          0.964    30.9      23.1    176
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+   Power SFT.R.sq slope truncated.R.sq mean.k. median.k. max.k.
+1     12    0.664 -2.04          0.964  30.900    23.100  176.0
+2     14    0.671 -2.18          0.958  16.600    11.400  110.0
+3     16    0.732 -2.07          0.978   9.450     5.800   70.6
+4     18    0.781 -2.00          0.988   5.600     3.080   46.6
+5     20    0.790 -2.20          0.987   3.440     1.680   35.7
+6     22    0.801 -2.37          0.992   2.190     0.946   28.4
+7     24    0.833 -2.42          0.995   1.430     0.544   22.9
+8     26    0.862 -2.41          0.998   0.959     0.320   18.7
+9     28    0.881 -2.38          0.996   0.657     0.192   15.3
+10    30    0.892 -2.33          0.991   0.460     0.117   12.7
+[1] 26
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./8778/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 71 module eigengenes in given set.
+ ....checking kME in modules..
+  ..reassigning 5 genes from module 1 to modules with higher KME.
+  ..reassigning 3 genes from module 2 to modules with higher KME.
+  ..reassigning 1 genes from module 4 to modules with higher KME.
+  ..reassigning 6 genes from module 5 to modules with higher KME.
+  ..reassigning 2 genes from module 7 to modules with higher KME.
+  ..reassigning 1 genes from module 8 to modules with higher KME.
+  ..reassigning 3 genes from module 9 to modules with higher KME.
+  ..reassigning 3 genes from module 10 to modules with higher KME.
+  ..reassigning 1 genes from module 15 to modules with higher KME.
+  ..reassigning 2 genes from module 17 to modules with higher KME.
+  ..reassigning 1 genes from module 20 to modules with higher KME.
+  ..reassigning 1 genes from module 26 to modules with higher KME.
+  ..reassigning 1 genes from module 32 to modules with higher KME.
+  ..reassigning 1 genes from module 36 to modules with higher KME.
+  ..reassigning 1 genes from module 37 to modules with higher KME.
+  ..reassigning 1 genes from module 41 to modules with higher KME.
+  ..reassigning 2 genes from module 43 to modules with higher KME.
+  ..reassigning 1 genes from module 45 to modules with higher KME.
+  ..reassigning 1 genes from module 46 to modules with higher KME.
+  ..reassigning 1 genes from module 67 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       99% 
+0.00146351 
+[1] "Next group: 9253"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.295 -1.97          0.985 687.000   662.000 1630.0
+2     4    0.715 -2.62          0.980  71.500    60.800  325.0
+3     6    0.900 -2.70          0.971  12.800     8.720  141.0
+4     8    0.923 -2.32          0.958   3.380     1.640   85.7
+5    10    0.927 -1.97          0.961   1.210     0.370   58.2
+6    12    0.928 -1.74          0.974   0.553     0.097   42.0
+[1] 6
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./9253/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 60 module eigengenes in given set.
+ ....checking kME in modules..
+     ..removing 9 genes from module 1 because their KME is too low.
+     ..removing 4 genes from module 4 because their KME is too low.
+     ..removing 3 genes from module 6 because their KME is too low.
+     ..removing 1 genes from module 7 because their KME is too low.
+     ..removing 1 genes from module 8 because their KME is too low.
+     ..removing 1 genes from module 15 because their KME is too low.
+  ..reassigning 8 genes from module 1 to modules with higher KME.
+  ..reassigning 9 genes from module 2 to modules with higher KME.
+  ..reassigning 5 genes from module 4 to modules with higher KME.
+  ..reassigning 1 genes from module 6 to modules with higher KME.
+  ..reassigning 1 genes from module 9 to modules with higher KME.
+  ..reassigning 1 genes from module 14 to modules with higher KME.
+  ..reassigning 1 genes from module 53 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       99% 
+0.01193738 
+[1] "Next group: 11335"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2   0.0807 -0.305          0.860  3120.0    3120.0   6950
+2     4   0.6560 -1.140          0.975   955.0     837.0   3420
+3     6   0.7980 -1.450          0.989   380.0     277.0   1960
+4     8   0.8570 -1.620          0.985   177.0     105.0   1240
+5    10   0.8620 -1.720          0.964    91.5      43.1    851
+6    12   0.8920 -1.740          0.971    51.3      18.9    615
+[1] 8
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./11335/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 45 module eigengenes in given set.
+ ....checking kME in modules..
+     ..removing 16 genes from module 2 because their KME is too low.
+     ..removing 7 genes from module 3 because their KME is too low.
+     ..removing 1 genes from module 4 because their KME is too low.
+     ..removing 1 genes from module 6 because their KME is too low.
+     ..removing 2 genes from module 10 because their KME is too low.
+     ..removing 1 genes from module 19 because their KME is too low.
+  ..reassigning 69 genes from module 1 to modules with higher KME.
+  ..reassigning 146 genes from module 2 to modules with higher KME.
+  ..reassigning 95 genes from module 3 to modules with higher KME.
+  ..reassigning 48 genes from module 4 to modules with higher KME.
+  ..reassigning 27 genes from module 5 to modules with higher KME.
+  ..reassigning 10 genes from module 6 to modules with higher KME.
+  ..reassigning 7 genes from module 7 to modules with higher KME.
+  ..reassigning 26 genes from module 8 to modules with higher KME.
+  ..reassigning 9 genes from module 9 to modules with higher KME.
+  ..reassigning 16 genes from module 10 to modules with higher KME.
+  ..reassigning 3 genes from module 11 to modules with higher KME.
+  ..reassigning 3 genes from module 12 to modules with higher KME.
+  ..reassigning 4 genes from module 13 to modules with higher KME.
+  ..reassigning 1 genes from module 14 to modules with higher KME.
+  ..reassigning 2 genes from module 16 to modules with higher KME.
+  ..reassigning 2 genes from module 17 to modules with higher KME.
+  ..reassigning 1 genes from module 18 to modules with higher KME.
+  ..reassigning 1 genes from module 19 to modules with higher KME.
+  ..reassigning 2 genes from module 20 to modules with higher KME.
+  ..reassigning 1 genes from module 21 to modules with higher KME.
+  ..reassigning 4 genes from module 22 to modules with higher KME.
+  ..reassigning 1 genes from module 24 to modules with higher KME.
+  ..reassigning 2 genes from module 25 to modules with higher KME.
+  ..reassigning 2 genes from module 29 to modules with higher KME.
+  ..reassigning 3 genes from module 35 to modules with higher KME.
+  ..reassigning 1 genes from module 36 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+      99% 
+0.1535525 
+[1] "Next group: 3310"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.154 -0.843          0.856 1450.00   1420.00 3340.0
+2     4    0.591 -1.660          0.917  284.00    236.00 1110.0
+3     6    0.733 -2.010          0.966   83.20     56.30  515.0
+4     8    0.782 -2.150          0.982   30.80     16.50  275.0
+5    10    0.820 -2.160          0.985   13.30      5.56  160.0
+6    12    0.836 -2.130          0.981    6.44      2.07   98.2
+[1] 12
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./3310/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 101 module eigengenes in given set.
+ ....checking kME in modules..
+  ..reassigning 2 genes from module 1 to modules with higher KME.
+  ..reassigning 14 genes from module 2 to modules with higher KME.
+  ..reassigning 1 genes from module 3 to modules with higher KME.
+  ..reassigning 5 genes from module 4 to modules with higher KME.
+  ..reassigning 9 genes from module 5 to modules with higher KME.
+  ..reassigning 5 genes from module 6 to modules with higher KME.
+  ..reassigning 5 genes from module 7 to modules with higher KME.
+  ..reassigning 6 genes from module 8 to modules with higher KME.
+  ..reassigning 5 genes from module 11 to modules with higher KME.
+  ..reassigning 2 genes from module 13 to modules with higher KME.
+  ..reassigning 1 genes from module 14 to modules with higher KME.
+  ..reassigning 1 genes from module 15 to modules with higher KME.
+  ..reassigning 4 genes from module 18 to modules with higher KME.
+  ..reassigning 2 genes from module 19 to modules with higher KME.
+  ..reassigning 3 genes from module 22 to modules with higher KME.
+  ..reassigning 1 genes from module 23 to modules with higher KME.
+  ..reassigning 4 genes from module 24 to modules with higher KME.
+  ..reassigning 1 genes from module 25 to modules with higher KME.
+  ..reassigning 1 genes from module 26 to modules with higher KME.
+  ..reassigning 1 genes from module 27 to modules with higher KME.
+  ..reassigning 2 genes from module 29 to modules with higher KME.
+  ..reassigning 2 genes from module 30 to modules with higher KME.
+  ..reassigning 1 genes from module 31 to modules with higher KME.
+  ..reassigning 3 genes from module 35 to modules with higher KME.
+  ..reassigning 1 genes from module 43 to modules with higher KME.
+  ..reassigning 2 genes from module 45 to modules with higher KME.
+  ..reassigning 1 genes from module 47 to modules with higher KME.
+  ..reassigning 1 genes from module 49 to modules with higher KME.
+  ..reassigning 1 genes from module 56 to modules with higher KME.
+  ..reassigning 1 genes from module 58 to modules with higher KME.
+  ..reassigning 1 genes from module 59 to modules with higher KME.
+  ..reassigning 1 genes from module 63 to modules with higher KME.
+  ..reassigning 1 genes from module 78 to modules with higher KME.
+  ..reassigning 1 genes from module 88 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       99% 
+0.01520275 
+[1] "Next group: 10223"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.260 -0.752          0.858  2670.0   2700.00   6430
+2     4    0.692 -1.460          0.975   702.0    617.00   2910
+3     6    0.832 -1.740          0.979   242.0    178.00   1510
+4     8    0.901 -1.840          0.971    98.9     60.00    871
+5    10    0.941 -1.860          0.969    45.6     22.40    547
+6    12    0.956 -1.840          0.961    23.2      8.97    370
+[1] 8
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./10223/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 76 module eigengenes in given set.
+ ....checking kME in modules..
+     ..removing 9 genes from module 1 because their KME is too low.
+     ..removing 3 genes from module 2 because their KME is too low.
+     ..removing 2 genes from module 40 because their KME is too low.
+  ..reassigning 185 genes from module 1 to modules with higher KME.
+  ..reassigning 28 genes from module 2 to modules with higher KME.
+  ..reassigning 22 genes from module 3 to modules with higher KME.
+  ..reassigning 32 genes from module 4 to modules with higher KME.
+  ..reassigning 7 genes from module 5 to modules with higher KME.
+  ..reassigning 25 genes from module 6 to modules with higher KME.
+  ..reassigning 5 genes from module 7 to modules with higher KME.
+  ..reassigning 6 genes from module 8 to modules with higher KME.
+  ..reassigning 7 genes from module 9 to modules with higher KME.
+  ..reassigning 1 genes from module 10 to modules with higher KME.
+  ..reassigning 7 genes from module 11 to modules with higher KME.
+  ..reassigning 1 genes from module 12 to modules with higher KME.
+  ..reassigning 3 genes from module 13 to modules with higher KME.
+  ..reassigning 1 genes from module 14 to modules with higher KME.
+  ..reassigning 5 genes from module 15 to modules with higher KME.
+  ..reassigning 8 genes from module 16 to modules with higher KME.
+  ..reassigning 3 genes from module 18 to modules with higher KME.
+  ..reassigning 1 genes from module 20 to modules with higher KME.
+  ..reassigning 3 genes from module 21 to modules with higher KME.
+  ..reassigning 2 genes from module 22 to modules with higher KME.
+  ..reassigning 1 genes from module 23 to modules with higher KME.
+  ..reassigning 2 genes from module 25 to modules with higher KME.
+  ..reassigning 1 genes from module 26 to modules with higher KME.
+  ..reassigning 1 genes from module 27 to modules with higher KME.
+  ..reassigning 2 genes from module 28 to modules with higher KME.
+  ..reassigning 2 genes from module 29 to modules with higher KME.
+  ..reassigning 1 genes from module 30 to modules with higher KME.
+  ..reassigning 1 genes from module 31 to modules with higher KME.
+  ..reassigning 1 genes from module 36 to modules with higher KME.
+  ..reassigning 2 genes from module 39 to modules with higher KME.
+  ..reassigning 1 genes from module 50 to modules with higher KME.
+  ..reassigning 1 genes from module 55 to modules with higher KME.
+  ..reassigning 6 genes from module 56 to modules with higher KME.
+  ..reassigning 2 genes from module 59 to modules with higher KME.
+  ..reassigning 3 genes from module 60 to modules with higher KME.
+  ..reassigning 1 genes from module 71 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       99% 
+0.09598093 
+[1] "Next group: 9744"
+[1] "Next group: 0080199"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq slope truncated.R.sq mean.k. median.k. max.k.
+1     2    0.552 -2.03          0.934  895.00   815.000   2430
+2     4    0.935 -2.26          0.981  118.00    90.200    712
+3     6    0.976 -2.10          0.988   26.00    15.300    314
+4     8    0.963 -1.90          0.975    7.99     3.340    171
+5    10    0.971 -1.73          0.987    3.12     0.868    106
+6    12    0.963 -1.62          0.986    1.45     0.256     71
+[1] 4
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./0080199/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 69 module eigengenes in given set.
+ ....checking kME in modules..
+     ..removing 602 genes from module 1 because their KME is too low.
+     ..removing 35 genes from module 2 because their KME is too low.
+     ..removing 30 genes from module 3 because their KME is too low.
+     ..removing 18 genes from module 4 because their KME is too low.
+     ..removing 2 genes from module 5 because their KME is too low.
+     ..removing 6 genes from module 6 because their KME is too low.
+     ..removing 13 genes from module 7 because their KME is too low.
+     ..removing 48 genes from module 8 because their KME is too low.
+     ..removing 1 genes from module 9 because their KME is too low.
+     ..removing 1 genes from module 10 because their KME is too low.
+     ..removing 1 genes from module 11 because their KME is too low.
+     ..removing 2 genes from module 12 because their KME is too low.
+     ..removing 7 genes from module 13 because their KME is too low.
+     ..removing 2 genes from module 14 because their KME is too low.
+     ..removing 3 genes from module 15 because their KME is too low.
+     ..removing 1 genes from module 16 because their KME is too low.
+     ..removing 2 genes from module 17 because their KME is too low.
+     ..removing 4 genes from module 18 because their KME is too low.
+     ..removing 3 genes from module 19 because their KME is too low.
+     ..removing 5 genes from module 20 because their KME is too low.
+     ..removing 1 genes from module 21 because their KME is too low.
+     ..removing 5 genes from module 22 because their KME is too low.
+     ..removing 1 genes from module 23 because their KME is too low.
+     ..removing 1 genes from module 24 because their KME is too low.
+     ..removing 6 genes from module 25 because their KME is too low.
+     ..removing 7 genes from module 27 because their KME is too low.
+     ..removing 1 genes from module 28 because their KME is too low.
+     ..removing 1 genes from module 30 because their KME is too low.
+     ..removing 4 genes from module 31 because their KME is too low.
+     ..removing 5 genes from module 32 because their KME is too low.
+     ..removing 3 genes from module 33 because their KME is too low.
+     ..removing 1 genes from module 34 because their KME is too low.
+     ..removing 1 genes from module 37 because their KME is too low.
+     ..removing 9 genes from module 38 because their KME is too low.
+     ..removing 1 genes from module 40 because their KME is too low.
+     ..removing 1 genes from module 43 because their KME is too low.
+     ..removing 1 genes from module 44 because their KME is too low.
+     ..removing 1 genes from module 48 because their KME is too low.
+     ..removing 2 genes from module 51 because their KME is too low.
+     ..removing 1 genes from module 53 because their KME is too low.
+     ..removing 1 genes from module 55 because their KME is too low.
+     ..removing 1 genes from module 56 because their KME is too low.
+     ..removing 1 genes from module 58 because their KME is too low.
+     ..removing 1 genes from module 63 because their KME is too low.
+     ..removing 1 genes from module 64 because their KME is too low.
+  ..reassigning 33 genes from module 1 to modules with higher KME.
+  ..reassigning 1 genes from module 3 to modules with higher KME.
+  ..reassigning 8 genes from module 4 to modules with higher KME.
+  ..reassigning 5 genes from module 7 to modules with higher KME.
+  ..reassigning 2 genes from module 8 to modules with higher KME.
+  ..reassigning 1 genes from module 10 to modules with higher KME.
+  ..reassigning 2 genes from module 13 to modules with higher KME.
+  ..reassigning 4 genes from module 21 to modules with higher KME.
+  ..reassigning 1 genes from module 29 to modules with higher KME.
+  ..reassigning 1 genes from module 31 to modules with higher KME.
+  ..reassigning 1 genes from module 54 to modules with higher KME.
+  ..reassigning 1 genes from module 59 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       99% 
+0.07284647 
+[1] "Next group: 1883"
+pickSoftThreshold: will use block size 2216.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2216 of 20183
+   ..working on genes 2217 through 4432 of 20183
+   ..working on genes 4433 through 6648 of 20183
+   ..working on genes 6649 through 8864 of 20183
+   ..working on genes 8865 through 11080 of 20183
+   ..working on genes 11081 through 13296 of 20183
+   ..working on genes 13297 through 15512 of 20183
+   ..working on genes 15513 through 17728 of 20183
+   ..working on genes 17729 through 19944 of 20183
+   ..working on genes 19945 through 20183 of 20183
+  Power SFT.R.sq  slope truncated.R.sq mean.k. median.k. max.k.
+1     2   0.0602  0.481          0.880  2880.0    2900.0   4760
+2     4   0.2790 -0.826          0.886   940.0     904.0   2190
+3     6   0.5470 -1.260          0.934   415.0     373.0   1250
+4     8   0.6670 -1.490          0.955   217.0     180.0    805
+5    10   0.7240 -1.650          0.964   126.0      96.1    560
+6    12   0.7670 -1.720          0.976    79.1      55.5    408
+[1] 12
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file ./1883/coexp_network-block.1.RData
+ ....clustering..
+ ....detecting modules..
+     ..done.
+ ....calculating module eigengenes..
+     moduleEigengenes: Calculating 270 module eigengenes in given set.
+ ....checking kME in modules..
+     ..removing 1 genes from module 1 because their KME is too low.
+     ..removing 1 genes from module 4 because their KME is too low.
+     ..removing 1 genes from module 11 because their KME is too low.
+     ..removing 1 genes from module 25 because their KME is too low.
+     ..removing 1 genes from module 62 because their KME is too low.
+     ..removing 1 genes from module 78 because their KME is too low.
+     ..removing 1 genes from module 104 because their KME is too low.
+  ..reassigning 2 genes from module 1 to modules with higher KME.
+  ..reassigning 1 genes from module 22 to modules with higher KME.
+  ..reassigning 1 genes from module 32 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.15
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       Calculating new MEs...
+       multiSetMEs: Calculating module MEs.
+         Working on set 1 ...
+       99% 
+0.08774299 
+[1] "Next group: normal"
+Warning message:
+executing %dopar% sequentially: no parallel backend registered 
