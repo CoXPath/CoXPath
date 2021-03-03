@@ -23,7 +23,7 @@ This repository contains code and data for described in detail in our paper, "To
 
 If you have found our study useful in your work, please consider citing:
 
-Figueiredo, R. Q., Raschka, T., Kodamullill, A. T., Hofmann-Apitius, M., Mubeen, S., and Domingo-Fernández, D. (2021). [Towards a global investigation of transcriptomic signatures through co-expression networks and pathway knowledge for the identification of disease mechanisms](FIXME), *bioRxiv*, FIXME.
+Figueiredo, R. Q., Raschka, T., Kodamullill, A. T., Hofmann-Apitius, M., Mubeen, S., and Domingo-Fernández, D. (2021). [Towards a global investigation of transcriptomic signatures through co-expression networks and pathway knowledge for the identification of disease mechanisms](https://doi.org/10.1101/2021.03.02.433520), *bioRxiv*, 2021.03.02.433520.
 
 ### Setup environment
 Install requirements
