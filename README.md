@@ -16,7 +16,7 @@
 This repository contains code and data for described in detail in our paper, "Towards a global investigation of transcriptomic signatures through co-expression networks and pathway knowledge for the identification of disease mechanisms" (Figueiredo *et al.*, 2021), which systematically investigates the patterns observed in hundreds of transcriptomics datasets from over sixty indications by using pathways and molecular interactions as a template (see workflow below).
 
 <p align="center">
-  <img src="results/figures/figure1.jpg">
+  <img src="results/figures/figure1.png">
 </p>
 
 ## Citation
