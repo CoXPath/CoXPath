@@ -6,7 +6,7 @@
 
 * [General Info](#general-info)
 * [Citation](#citation)
-* [Generating co-expression networks from ArrayExpress](#Generating-co-expression-networks-from-ArrayExpress)
+* [Generating co-expression networks from ArrayExpress](#generating-co-expression-networks-from-arrayexpress)
 * [Datasets](#datasets)
 * [Analyses](#analyses)
 * [Results](#results)
@@ -36,7 +36,7 @@ Using the scripts outlined in [/R](/R), we queried datasets from ArrayExpress (A
 The resulting edge lists can be seen in the above Zenodo page.
 
 ## Datasets
-Datasets can be directly downloaded from [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4572853.svg)](https://doi.org/10.5281/zenodo.4572853)
+Datasets can be directly downloaded from  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4700652.svg)](https://doi.org/10.5281/zenodo.4700652)
 
 To run the Python scripts and Jupyter notebooks the zip file from Zenodo has to be placed under /data.
 The contents is as follows:
@@ -142,22 +142,34 @@ Here we see that neither the number of datasets nor the number of samples used t
 [Supplementary figure 3](/results/figures/supp_figure3.png) shows the distribution of the frequency of all proteins across the disease co-expression networks.
 Here we see that the majority of the proteins are present in ~35-40 of the 63 diseases.
 
-Supplementary figures [4,](/results/figures/supp_figure4.png) [5,](/results/figures/supp_figure5.png) and [6](/results/figures/supp_figure6.png) illustrates the similarity of the proteins in the disease co-expression network and of the Human interactome network.
+Supplementary figures [4,](/results/figures/supp_figure4.png) [6,](/results/figures/supp_figure6.png) and [12](/results/figures/supp_figure12.png) illustrates the similarity of the proteins in the disease co-expression network and of the Human interactome network.
 Sup. fig. 4: Here we see the overlap between all proteins of the interactome and all proteins of the disease co-expression networks. 88% of the interactome proteins and 37.5% of the disease proteins overlap.
-Sup. fig. 5: Here we see the overlap between proportional amounts of the most well-connected proteins of the interactome and most common proteins of disease co-expression networks. The overlap is very minimal: 0-3%
-Sup. fig. 6: Here we see the overlap between proportional amounts of the least well-connected proteins of the interactome and least common proteins of disease co-expression networks. The overlap is less minimal: 3-10%
+Sup. fig. 6: Here we see the overlap between proportional amounts of the most well-connected proteins of the interactome and most common proteins of disease co-expression networks. The overlap is very minimal: 0-3%
+Sup. fig. 12: Here we see the overlap between proportional amounts of the least well-connected proteins of the interactome and least common proteins of disease co-expression networks. The overlap is less minimal: 3-10%
 
-Supplementary figures [7,](/results/figures/supp_figure7.png) [8,](/results/figures/supp_figure8.png) and [9](/results/figures/supp_figure9.png) illustrates the similarity of the proteins in the disease co-expression network and of KEGG pathways.
-Sup. fig. 7: Here we see the overlap between all proteins in KEGG pathways and all proteins of the disease co-expression networks. 86.5% of the KEGG proteins and 34% of the disease proteins overlap.
-Sup. fig. 8: Here we see the overlap between proportional amounts of the most common KEGG proteins and most common proteins of disease co-expression networks. The overlap is very minimal: 0-5%
-Sup. fig. 9: Here we see the overlap between proportional amounts of the least common KEGG proteins and least common proteins of disease co-expression networks. The overlap is less minimal: 2-13.5%
+Supplementary figures [7,](/results/figures/supp_figure7.png) [9,](/results/figures/supp_figure9.png) and [13](/results/figures/supp_figure13.png) illustrates the similarity of the proteins in the disease co-expression network and of the STRING PPI network.
+Sup. fig. 7: Here we see the overlap between all proteins of the STRING PPI network and all proteins of the disease co-expression networks. 85% of the STRING proteins and 80% of the disease proteins overlap.
+Sup. fig. 9: Here we see the overlap between proportional amounts of the most well-connected proteins of the STRING PPI network and most common proteins of disease co-expression networks. The overlap is very minimal: 0-2.25%
+Sup. fig. 13: Here we see the overlap between proportional amounts of the least well-connected proteins of the STRING PPI network and least common proteins of disease co-expression networks. The overlap is minimal: 1-2.5%
 
-[Supplementary table 2](/results/tables/supp_table2.tsv) lists the proteins in the overlap in the previously mentioned comparisons.
+Supplementary figures [8,](/results/figures/supp_figure8.png) [10,](/results/figures/supp_figure10.png) and [14](/results/figures/supp_figure14.png) illustrates the similarity of the proteins in the disease co-expression network and of the HIPPIE PPI network.
+Sup. fig. 8: Here we see the overlap between all proteins of the HIPPIE PPI network and all proteins of the disease co-expression networks. 89% of the HIPPIE proteins and 79% of the disease proteins overlap.
+Sup. fig. 10: Here we see the overlap between proportional amounts of the most well-connected proteins of the HIPPIE PPI network and most common proteins of disease co-expression networks. The overlap is very minimal: 0-1.5%
+Sup. fig. 14: Here we see the overlap between proportional amounts of the least well-connected proteins of the HIPPIE PPI network and least common proteins of disease co-expression networks. The overlap is less minimal: 1-2.75%
+
+Supplementary figures [5,](/results/figures/supp_figure5.png) [11,](/results/figures/supp_figure11.png) and [15](/results/figures/supp_figure15.png) illustrates the similarity of the proteins in the disease co-expression network and of KEGG pathways.
+Sup. fig. 5: Here we see the overlap between all proteins in KEGG pathways and all proteins of the disease co-expression networks. 86.5% of the KEGG proteins and 34% of the disease proteins overlap.
+Sup. fig. 11: Here we see the overlap between proportional amounts of the most common KEGG proteins and most common proteins of disease co-expression networks. The overlap is very minimal: 0-5%
+Sup. fig. 15: Here we see the overlap between proportional amounts of the least common KEGG proteins and least common proteins of disease co-expression networks. The overlap is less minimal: 2-13.5%
+
+[Supplementary table 2](/results/tables/supp_table2.tsv) lists statistics on the average degrees of the nodes in the co-expression and PPI networks used as well as the average degree of select nodes which overlap with most common proteins of disease co-expression networks and the the most well-connected proteins.
+
+[Supplementary table 4](/results/tables/supp_table4.tsv) lists the proteins in the overlap in the previously mentioned comparisons.
 
 [Figure 5](/results/figures/figure5.png) plots the consensus for consistently differentially expressed genes.
 Here we see a volcano plot highlighting the most significantly up- and down- regulated genes according to two set cutoffs (i.e., adjusted *p*-value < 0.01 and |log<sub>2</sub> *fold change*| > 1.75)
 
-[Supplementary table 6](/results/tables/supp_table6.tsv) lists the most significantly up- and down- regulated genes from the figure above
+[Supplementary table 5](/results/tables/supp_table5.tsv) lists the most significantly up- and down- regulated genes from the figure above
 
 ### Investigating global trends of disease-specific co-expression networks at the edge level
 This section investigates the unique and most common edges patterns and compares them against the normal co-expression network and the interactome.
@@ -166,18 +178,18 @@ This section investigates the unique and most common edges patterns and compares
 [Figure 6](/results/figures/figure6.png) shows the mapping of disease-specific expression patterns with pathway knowledge via network similarity.
 Here we see patterns of groups of pathways being especially expressed in certain disease clusters.
 
-[Supplementary figure 10](/results/figures/supp_figure10.png) shows an alternate mapping of disease-specific expression patterns with pathway knowledge via network similarity via the interactome.
+[Supplementary figure 16](/results/figures/supp_figure16.png) shows an alternate mapping of disease-specific expression patterns with pathway knowledge via network similarity via the interactome.
 Here we see similar patterns of groups of pathways being especially expressed in certain disease clusters.
 
-[Supplementary table 3](/results/tables/supp_table3.tsv) lists the pathways that were found to be especially expressed in cognitive disorders.
+[Supplementary table 6](/results/tables/supp_table6.tsv) lists the pathways that were found to be especially expressed in cognitive disorders.
 
-[Supplementary table 4](/results/tables/supp_table4.tsv) lists the pathways that were found to be especially expressed in gastrointestinal system diseases.
+[Supplementary table 7](/results/tables/supp_table7.tsv) lists the pathways that were found to be especially expressed in gastrointestinal system diseases.
 
-[Supplementary table 5](/results/tables/supp_table5.tsv) lists the pathways that were found to be especially expressed in reproductive system diseases.
+[Supplementary table 8](/results/tables/supp_table8.tsv) lists the pathways that were found to be especially expressed in reproductive system diseases.
 
-[Supplementary table 6](/results/tables/supp_table6.tsv) lists the shared pathways that were found to be especially expressed in a number of cancers.
+[Supplementary table 9](/results/tables/supp_table9.tsv) lists the shared pathways that were found to be especially expressed in a number of cancers.
 
-[Supplementary table 7](/results/tables/supp_table7.tsv) lists the pathways that were found to be especially expressed in the disease dermatomyositis.
+[Supplementary table 10](/results/tables/supp_table10.tsv) lists the pathways that were found to be especially expressed in the disease dermatomyositis.
 
 ### Case scenario: in-depth investigation of the long term potentiation pathway in the context of schizophrenia
 The case scenario can be reproduced with other diseases and pathways, follow the instructions in the [jupyter noteobook](/analysis/3.5_analysis.ipynb)
@@ -185,6 +197,6 @@ The case scenario can be reproduced with other diseases and pathways, follow the
 [Figure 7](/results/figures/figure7.png) visualizes the long term potentiation (LTP) pathway in the context of schizophrenia.
 Here we combine the known pathway protein relations and overlay data from the disease which was found to show the highest pathway similarity. Fold changes of the proteins in schizophrenia that involved in the pathway are highlighted. Proteins that have been found to have high co-expression values from the disease co-expression network are highlighted if there is additionally relations between them in the pathway, and proposed as new edges if not.
 
-[Supplementary table 9](/results/tables/supp_table9.tsv) lists four pathways involving a key regulator of the LTP pathway in efforts to pinpoint candidate downstream pathways of LTP, indicating that there may be crosstalk between these pathways that could be explored in the future.
+[Supplementary table 11](/results/tables/supp_table11.tsv) lists four pathways involving a key regulator of the LTP pathway in efforts to pinpoint candidate downstream pathways of LTP, indicating that there may be crosstalk between these pathways that could be explored in the future.
 
 
