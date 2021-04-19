@@ -19,7 +19,11 @@ os.makedirs(network_cache_dir, exist_ok=True)
 
 doid_mappings = pyobo.get_id_name_mapping('doid')
 hgnc_mappings = pyobo.get_id_name_mapping('hgnc')
-
+hgnc_id_to_ncbigene_id = pyobo.get_filtered_xrefs('hgnc', 'ncbigene')
+entrez_mappings = {
+    ncbigene_id: hgnc_mappings[hgnc_id]
+    for hgnc_id, ncbigene_id in hgnc_id_to_ncbigene_id.items()
+}
 
 class InputError(Exception):
     """Exception raised for errors in the input.
@@ -533,3 +537,79 @@ def which_nets_have(item: Union[str, tuple], item_type: str, network_dict: Dict[
         if item in group:
             doids_that_have_item.append(doid)
     return doids_that_have_item
+
+
+def ensp_to_hgnc_mappings(URL = "https://stringdb-static.org/download/protein.info.v11.0/9606.protein.info.v11.0.txt.gz"):
+    """Map Ensembl protein ids to HGNC symbols
+    
+    Parameters
+    ----------
+    URL: str
+        location of the chosen version's STRING protein info file. taken from: https://string-db.org/cgi/download?sessionId=%24input-%3E%7BsessionId%7D&species_text=Homo+sapiens
+        version 11 human protein info is given as the default, optional
+
+    Returns
+    -------
+        dictionary mapping ensembl ids to hgnc gene symbols
+    
+    """
+    ensembl_hgnc_mappings_df = pd.read_table(URL, compression ="gzip")
+
+    ensp_gene_mappings = {
+        row["protein_external_id"] : row["preferred_name"]
+        for i, row in ensembl_hgnc_mappings_df.iterrows()
+    }
+    return ensp_gene_mappings
+
+
+def load_STRING(URL = "https://stringdb-static.org/download/protein.physical.links.v11.0/9606.protein.physical.links.v11.0.txt.gz"):
+    """Load the STRING PPI network located at the given URL
+
+    Parameters
+    ----------
+    URL: str
+        location of the chosen version's STRING PPI physical links file. taken from: https://string-db.org/cgi/download?sessionId=%24input-%3E%7BsessionId%7D&species_text=Homo+sapiens
+        version 11 human links are given as the default, optional
+
+    Returns
+    -------
+        PPI network given as nextworkx directed graph object
+
+    """
+    STRING_edges = pd.read_table(URL, compression ="gzip", sep=" ")
+    STRING = nx.Graph()
+    gene_mappings = ensp_to_hgnc_mappings()
+    for i, row in STRING_edges.iterrows():
+        source = gene_mappings[row["protein1"]]
+        target = gene_mappings[row["protein2"]]
+        STRING.add_edge(source, target, weight = row["combined_score"])
+    return STRING
+
+
+def load_HIPPIE(URL = "http://cbdm-01.zdv.uni-mainz.de/~mschaefer/hippie/hippie_current.txt"):
+    """Load the HIPPIE PPI network located at the given URL
+
+    Parameters
+    ----------
+    URL: str
+        location of the chosen version's HIPPIE's PPI tab format file. taken from: http://cbdm-01.zdv.uni-mainz.de/~mschaefer/hippie/download.php
+        the link automatically uses the current version (2.2  at the time this was conducted) as the default, optional
+
+    Returns
+    -------
+        PPI network given as nextworkx directed graph object
+
+    """
+    HIPPIE_interactions = pd.read_table(URL, header=None)
+    HIPPIE= nx.Graph()
+    skipped = 0
+    for i, row in HIPPIE_interactions.iterrows():
+        try:
+            source = entrez_mappings[str(row[1])]
+            target = entrez_mappings[str(row[3])]
+        except KeyError:
+            skipped += 1
+            continue
+        HIPPIE.add_edge(source, target, weight = row[4])
+    print(f"{skipped} edges skipped due to discontinued gene ids")
+    return HIPPIE
