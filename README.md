@@ -142,23 +142,23 @@ Here we see that neither the number of datasets nor the number of samples used t
 [Supplementary figure 3](/results/figures/supp_figure3.png) shows the distribution of the frequency of all proteins across the disease co-expression networks.
 Here we see that the majority of the proteins are present in ~35-40 of the 63 diseases.
 
-Supplementary figures [4,](/results/figures/supp_figure4.png) [6,](/results/figures/supp_figure6.png) and [12](/results/figures/supp_figure12.png) illustrates the similarity of the proteins in the disease co-expression network and of the Human interactome network.
+Supplementary figures [4,](/results/figures/supp_figure4.png) [5,](/results/figures/supp_figure5.png) and [12](/results/figures/supp_figure12.png) illustrates the similarity of the proteins in the disease co-expression network and of the Human interactome network.
 Sup. fig. 4: Here we see the overlap between all proteins of the interactome and all proteins of the disease co-expression networks. 88% of the interactome proteins and 37.5% of the disease proteins overlap.
-Sup. fig. 6: Here we see the overlap between proportional amounts of the most well-connected proteins of the interactome and most common proteins of disease co-expression networks. The overlap is very minimal: 0-3%
+Sup. fig. 5: Here we see the overlap between proportional amounts of the most well-connected proteins of the interactome and most common proteins of disease co-expression networks. The overlap is very minimal: 0-3%
 Sup. fig. 12: Here we see the overlap between proportional amounts of the least well-connected proteins of the interactome and least common proteins of disease co-expression networks. The overlap is less minimal: 3-10%
 
-Supplementary figures [7,](/results/figures/supp_figure7.png) [9,](/results/figures/supp_figure9.png) and [13](/results/figures/supp_figure13.png) illustrates the similarity of the proteins in the disease co-expression network and of the STRING PPI network.
-Sup. fig. 7: Here we see the overlap between all proteins of the STRING PPI network and all proteins of the disease co-expression networks. 85% of the STRING proteins and 80% of the disease proteins overlap.
-Sup. fig. 9: Here we see the overlap between proportional amounts of the most well-connected proteins of the STRING PPI network and most common proteins of disease co-expression networks. The overlap is very minimal: 0-2.25%
+Supplementary figures [6,](/results/figures/supp_figure6.png) [8,](/results/figures/supp_figure8.png) and [13](/results/figures/supp_figure13.png) illustrates the similarity of the proteins in the disease co-expression network and of the STRING PPI network.
+Sup. fig. 6: Here we see the overlap between all proteins of the STRING PPI network and all proteins of the disease co-expression networks. 85% of the STRING proteins and 80% of the disease proteins overlap.
+Sup. fig. 8: Here we see the overlap between proportional amounts of the most well-connected proteins of the STRING PPI network and most common proteins of disease co-expression networks. The overlap is very minimal: 0-2.25%
 Sup. fig. 13: Here we see the overlap between proportional amounts of the least well-connected proteins of the STRING PPI network and least common proteins of disease co-expression networks. The overlap is minimal: 1-2.5%
 
-Supplementary figures [8,](/results/figures/supp_figure8.png) [10,](/results/figures/supp_figure10.png) and [14](/results/figures/supp_figure14.png) illustrates the similarity of the proteins in the disease co-expression network and of the HIPPIE PPI network.
-Sup. fig. 8: Here we see the overlap between all proteins of the HIPPIE PPI network and all proteins of the disease co-expression networks. 89% of the HIPPIE proteins and 79% of the disease proteins overlap.
-Sup. fig. 10: Here we see the overlap between proportional amounts of the most well-connected proteins of the HIPPIE PPI network and most common proteins of disease co-expression networks. The overlap is very minimal: 0-1.5%
+Supplementary figures [7,](/results/figures/supp_figure7.png) [9,](/results/figures/supp_figure9.png) and [14](/results/figures/supp_figure14.png) illustrates the similarity of the proteins in the disease co-expression network and of the HIPPIE PPI network.
+Sup. fig. 7: Here we see the overlap between all proteins of the HIPPIE PPI network and all proteins of the disease co-expression networks. 89% of the HIPPIE proteins and 79% of the disease proteins overlap.
+Sup. fig. 9: Here we see the overlap between proportional amounts of the most well-connected proteins of the HIPPIE PPI network and most common proteins of disease co-expression networks. The overlap is very minimal: 0-1.5%
 Sup. fig. 14: Here we see the overlap between proportional amounts of the least well-connected proteins of the HIPPIE PPI network and least common proteins of disease co-expression networks. The overlap is less minimal: 1-2.75%
 
-Supplementary figures [5,](/results/figures/supp_figure5.png) [11,](/results/figures/supp_figure11.png) and [15](/results/figures/supp_figure15.png) illustrates the similarity of the proteins in the disease co-expression network and of KEGG pathways.
-Sup. fig. 5: Here we see the overlap between all proteins in KEGG pathways and all proteins of the disease co-expression networks. 86.5% of the KEGG proteins and 34% of the disease proteins overlap.
+Supplementary figures [10,](/results/figures/supp_figure10.png) [11,](/results/figures/supp_figure11.png) and [15](/results/figures/supp_figure15.png) illustrates the similarity of the proteins in the disease co-expression network and of KEGG pathways.
+Sup. fig. 10: Here we see the overlap between all proteins in KEGG pathways and all proteins of the disease co-expression networks. 86.5% of the KEGG proteins and 34% of the disease proteins overlap.
 Sup. fig. 11: Here we see the overlap between proportional amounts of the most common KEGG proteins and most common proteins of disease co-expression networks. The overlap is very minimal: 0-5%
 Sup. fig. 15: Here we see the overlap between proportional amounts of the least common KEGG proteins and least common proteins of disease co-expression networks. The overlap is less minimal: 2-13.5%
 
