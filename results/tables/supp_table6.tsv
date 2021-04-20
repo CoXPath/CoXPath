@@ -1,22 +1,29 @@
 Pathway name	Pathway ID
-Autoimmune thyroid disease	hsa05320
-Graft-versus-host disease	hsa05332
-Intestinal immune network for IgA production	hsa04672
-Viral myocarditis	hsa05416
-Type I diabetes mellitus	hsa04940
-Allograft rejection	hsa05330
-Antigen processing and presentation	hsa04612
-Natural killer cell mediated cytotoxicity	hsa04650
-Primary immunodeficiency	hsa05340
-Th1 and Th2 cell differentiation	hsa04658
-Th17 cell differentiation	hsa04659
-Hematopoietic cell lineage	hsa04640
-Rheumatoid arthritis	hsa05323
-Viral protein interaction with cytokine and cytokine receptor	hsa04061
-Inflammatory bowel disease	hsa05321
-Cell adhesion molecules	hsa04514
-Asthma	hsa05310
-Staphylococcus aureus infection	hsa05150
-Systemic lupus erythematosus	hsa05322
-T cell receptor signaling pathway	hsa04660
-B cell receptor signaling pathway	hsa04662
+Amyotrophic lateral sclerosis	hsa05014
+Thyroid hormone synthesis	hsa04918
+Salivary secretion	hsa04970
+Inflammatory mediator regulation of TRP channels	hsa04750
+Parathyroid hormone synthesis, secretion and action	hsa04928
+Growth hormone synthesis, secretion and action	hsa04935
+Nicotine addiction	hsa05033
+Hedgehog signaling pathway	hsa04340
+Long-term potentiation	hsa04720
+Type II diabetes mellitus	hsa04930
+Serotonergic synapse	hsa04726
+Cholinergic synapse	hsa04725
+Amphetamine addiction	hsa05031
+Insulin secretion	hsa04911
+Aldosterone synthesis and secretion	hsa04925
+Circadian entrainment	hsa04713
+Glutamatergic synapse	hsa04724
+GABAergic synapse	hsa04727
+Morphine addiction	hsa05032
+GnRH secretion	hsa04929
+Synaptic vesicle cycle	hsa04721
+ErbB signaling pathway	hsa04012
+Cocaine addiction	hsa05030
+Dopaminergic synapse	hsa04728
+Alcoholism	hsa05034
+Long-term depression	hsa04730
+Gap junction	hsa04540
+Relaxin signaling pathway	hsa04926

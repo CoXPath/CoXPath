@@ -1,35 +1,21 @@
-Most significantly up-regulated genes	Most significantly down-regulated genes
-AMPD1	ADH1B
-AQP3	ASH1L-AS1
-BEX5	CD36
-CDK1	CXCL8
-CEACAM8	DUSP4
-COL11A1	EPC1
-COL1A1	ERMN
-COL1A2	FABP4
-COL3A1	GABRA1
-CRNDE	GJB6
-CTHRC1	MAP4
-CYP1B1	MICAL2
-DEPTOR	NCEH1
-FAM13A	NEFL
-FAM174A	OTULIN
-FRZB	PANK2
-IGF1	PCIF1
-JCHAIN	PHLDA1
-LRRN3	PMAIP1
-MAGEH1	REL
-MARC2	S100A8
-MTUS1	SERPINA1
-NDFIP2	SLC8A1
-PBK	STXBP6
-PCLAF	SYNPR
-PSAT1	VSNL1
-RASD1	
-RRM2	
-S100A12	
-SELENOP	
-SLC16A7	
-SYNPO2	
-TOP2A	
-XIST	
+Pathway name	Pathway ID
+Glycosylphosphatidylinositol (GPI)-anchor biosynthesis	hsa00563
+Aminoacyl-tRNA biosynthesis	hsa00970
+One carbon pool by folate	hsa00670
+RNA polymerase	hsa03020
+Nucleotide excision repair	hsa03420
+Cell cycle	hsa04110
+DNA replication	hsa03030
+Mismatch repair	hsa03430
+Fanconi anemia pathway	hsa03460
+Base excision repair	hsa03410
+Homologous recombination	hsa03440
+Cysteine and methionine metabolism	hsa00270
+Proteasome	hsa03050
+Ribosome biogenesis in eukaryotes	hsa03008
+RNA transport	hsa03013
+mRNA surveillance pathway	hsa03015
+RNA degradation	hsa03018
+Spliceosome	hsa03040
+N-Glycan biosynthesis	hsa00510
+Protein export	hsa03060

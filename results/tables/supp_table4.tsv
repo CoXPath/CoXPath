@@ -1,106 +1,33 @@
-Pathway name	Pathway ID
-Small cell lung cancer	hsa05222
-Adherens junction	hsa04520
-Bacterial invasion of epithelial cells	hsa05100
-Thyroid cancer	hsa05216
-TGF-beta signaling pathway	hsa04350
-Phospholipase D signaling pathway	hsa04072
-Hippo signaling pathway	hsa04392
-AGE-RAGE signaling pathway in diabetic complications	hsa04933
-EGFR tyrosine kinase inhibitor resistance	hsa01521
-Fluid shear stress and atherosclerosis	hsa05418
-Axon guidance	hsa04360
-Tight junction	hsa04530
-Adipocytokine signaling pathway	hsa04920
-Necroptosis	hsa04217
-Hepatitis C	hsa05160
-Hepatitis B	hsa05161
-Platinum drug resistance	hsa01524
-p53 signaling pathway	hsa04115
-Cellular senescence	hsa04218
-Oocyte meiosis	hsa04114
-Progesterone-mediated oocyte maturation	hsa04914
-Sphingolipid metabolism	hsa00600
-Lysosome	hsa04142
-Ferroptosis	hsa04216
-Bladder cancer	hsa05219
-Central carbon metabolism in cancer	hsa05230
-Ubiquitin mediated proteolysis	hsa04120
-Vasopressin-regulated water reabsorption	hsa04962
-Insulin signaling pathway	hsa04910
-Insulin resistance	hsa04931
-GnRH signaling pathway	hsa04912
-Estrogen signaling pathway	hsa04915
-Prolactin signaling pathway	hsa04917
-Epithelial cell signaling in Helicobacter pylori infection	hsa05120
-Circadian rhythm	hsa04710
-SNARE interactions in vesicular transport	hsa04130
-Protein processing in endoplasmic reticulum	hsa04141
-Mitophagy	hsa04137
-Autophagy	hsa04140
-Endometrial cancer	hsa05213
-Renal cell carcinoma	hsa05211
-Chronic myeloid leukemia	hsa05220
-Sphingolipid signaling pathway	hsa04071
-AMPK signaling pathway	hsa04152
-Pancreatic cancer	hsa05212
-Longevity regulating pathway	hsa04213
-Neurotrophin signaling pathway	hsa04722
-mTOR signaling pathway	hsa04150
-Colorectal cancer	hsa05210
-Glioma	hsa05214
-Longevity regulating pathway	hsa04213
-Choline metabolism in cancer	hsa05231
-Endocrine resistance	hsa01522
-Prostate cancer	hsa05215
-FoxO signaling pathway	hsa04068
-Non-small cell lung cancer	hsa05223
-JAK-STAT signaling pathway	hsa04630
-Legionellosis	hsa05134
-Malaria	hsa05144
-Transcriptional misregulation in cancer	hsa05202
-Platelet activation	hsa04611
-Leukocyte transendothelial migration	hsa04670
-Fc epsilon RI signaling pathway	hsa04664
-Fc gamma R-mediated phagocytosis	hsa04666
-VEGF signaling pathway	hsa04370
-Pathogenic Escherichia coli infection	hsa05130
-Yersinia infection	hsa05135
-PD-L1 expression and PD-1 checkpoint pathway in cancer	hsa05235
-Chemokine signaling pathway	hsa04062
-NF-kappa B signaling pathway	hsa04064
-NOD-like receptor signaling pathway	hsa04621
-Toll-like receptor signaling pathway	hsa04620
-Influenza A	hsa05164
-Measles	hsa05162
-Epstein-Barr virus infection	hsa05169
-Pertussis	hsa05133
-Chagas disease	hsa05142
-Phagosome	hsa04145
-Tuberculosis	hsa05152
-Acute myeloid leukemia	hsa05221
-Apoptosis	hsa04215
-Kaposi sarcoma-associated herpesvirus infection	hsa05167
-C-type lectin receptor signaling pathway	hsa04625
-TNF signaling pathway	hsa04668
-Autoimmune thyroid disease	hsa05320
-Graft-versus-host disease	hsa05332
-Intestinal immune network for IgA production	hsa04672
-Viral myocarditis	hsa05416
-Type I diabetes mellitus	hsa04940
-Allograft rejection	hsa05330
-Antigen processing and presentation	hsa04612
-Natural killer cell mediated cytotoxicity	hsa04650
-Primary immunodeficiency	hsa05340
-Th1 and Th2 cell differentiation	hsa04658
-Th17 cell differentiation	hsa04659
-Hematopoietic cell lineage	hsa04640
-Rheumatoid arthritis	hsa05323
-Viral protein interaction with cytokine and cytokine receptor	hsa04061
-Inflammatory bowel disease	hsa05321
-Cell adhesion molecules	hsa04514
-Asthma	hsa05310
-Staphylococcus aureus infection	hsa05150
-Systemic lupus erythematosus	hsa05322
-T cell receptor signaling pathway	hsa04660
-B cell receptor signaling pathway	hsa04662
+Co-expression network proteins	Interactome and KEGG pathway proteins	% of co-exp proteins overlapping to KEGG/interactome	Top #	Total overlapping proteins	Overlap (comma separated)
+Most common	Most connected proteins in the interactome	33.44	100	0	
+Most common	Most connected proteins in the interactome	31.53	200	2	CDK1, PLCB2
+Most common	Most connected proteins in the interactome	30.53	300	6	CAMK2A, CDK1, ELK1, PLCB2, PRKCG, RPL18
+Most common	Most connected proteins in the interactome	29.95	400	13	CAMK2A, CDC5L, CDK1, CYP1A2, CYP2C9, CYP3A4, DVL2, ELK1, GNAO1, NF2, PLCB2, PRKCG, RPL18 
+Most common	Most common proteins in pathways	31.86	100	0	
+Most common	Most common proteins in pathways	30.22	200	5	ADCY5, CAMK2B, PLA2G4F, PLCB2, PRKCG
+Most common	Most common proteins in pathways	28.92	300	14	ADCY5, CACNA1F, CAMK2A, CAMK2B, GNAO1, GRIN2B, HLA-B, HLA-C, HLA-DRA, HLA-G, MAP2K7, PLA2G4F, PLCB2, PRKCG
+Most common	Most common proteins in pathways	28.19	400	22	ADCY5, CACNA1F, CALML3, CAMK2A, CAMK2B, DVL2, ELK1, GNAO1, GRIN1, GRIN2B, HLA-B, HLA-C, HLA-DMA, HLA-DMB, HLA-DQB1, HLA-DRA, HLA-G, MAP2K7, PLA2G4F, PLCB2, PRKCG, WNT6
+Most common	Most connected proteins in the STRING	70.37	100	0	
+Most common	Most connected proteins in the STRING	67.19	200	2	GSK3A, MAPK4
+Most common	Most connected proteins in the STRING	65.57	300	4	CDK1, GSK3A, MAPK4, RHBDL3
+Most common	Most connected proteins in the STRING	66.28	400	9	CCNA2, CCNB2, CDK1, GSK3A, MAPK4, RAD51, RHBDL3, TUBA1B, UBL4B
+Most common	Most connected proteins in the HIPPIE	70.9	100	0	
+Most common	Most connected proteins in the HIPPIE	64.35	200	1	HLA-B
+Most common	Most connected proteins in the HIPPIE	63.06	300	3	CDK1, HLA-B, MKI67
+Most common	Most connected proteins in the HIPPIE	63.16	400	6	CDK1, HLA-B, MKI67, RNF31, RPL18, RPS9
+Least common	Least connected proteins in the interactome	35.78	100	3	ESM1, MAP3K7CL, RGS16
+Least common	Least connected proteins in the interactome	35.23	200	10	AHRR, CYTL1, DNER, ESM1, MAP3K7CL, MMP10, NDN, RASGEF1A, RGS16, SYTL3
+Least common	Least connected proteins in the interactome	35.11	300	19	AHRR, COL24A1, CTNNAL1, CYTL1, DNER, ESM1, HOTAIR, KDM5B, MAP3K7CL, MMP10, MOSMO, MYEF2, NCALD, NDN, NET1, RASGEF1A, RGS16, SYTL3, TAS2R10
+Least common	Least connected proteins in the interactome	35.88	400	43	AHRR, COL24A1, CTNNAL1, CYTL1, DNER, ESM1, GRIP1, HNRNPL, HOTAIR, HOXA1, KDM5B, LHFPL2, LIN28B, LOXL3, MAP3K7CL, MIR17HG, MMP10, MOSMO, MYEF2, NCALD, NDN, NEB, NET1, PCSK1, PODXL, PXDN, RASGEF1A, RGS16, SATB2, SYTL3, TAS2R10, ZNF132, ZNF155, ZNF229, ZNF257, ZNF30, ZNF311, ZNF404, ZNF492, ZNF630, ZNF782, ZNF879, ZNF99
+Least common	Least common proteins in pathways	32.26	100	2	SLC44A3, SLC44A5
+Least common	Least common proteins in pathways	32.15	200	15	PBX3, SLC44A3, SLC44A5, SPRY2, SUPT3H, TRIM71, TSPAN7, TWIST1, ZFP37, ZFP69B, ZNF256, ZNF404, ZNF426, ZNF595, ZNF829
+Least common	Least common proteins in pathways	32	300	26	APOBEC3B, PBX3, SLC44A3, SLC44A5, SPRY2, SUPT3H, TRIM71, TSPAN7, TWIST1, ZFP37, ZFP69B, ZNF112, ZNF229, ZNF256, ZNF30, ZNF347, ZNF404, ZNF415, ZNF426, ZNF510, ZNF595, ZNF597, ZNF610, ZNF630, ZNF813, ZNF829
+Least common	Least common proteins in pathways	32.68	400	54	APOBEC3B, PBX3, SLC44A3, SLC44A5, SPRY2, SUPT3H, TRIM71, TSPAN7, TWIST1, ZFP37, ZFP69B, ZFP82, ZNF100, ZNF112, ZNF132, ZNF155, ZNF175, ZNF223, ZNF229, ZNF251, ZNF256, ZNF257, ZNF30, ZNF331, ZNF347, ZNF354A, ZNF404, ZNF415, ZNF417, ZNF426, ZNF470, ZNF492, ZNF510, ZNF543, ZNF546, ZNF565, ZNF595, ZNF597, ZNF600, ZNF610, ZNF613, ZNF624, ZNF630, ZNF649, ZNF713, ZNF718, ZNF763, ZNF782, ZNF813, ZNF829, ZNF875, ZNF879, ZNF891, ZNF99
+Least common	Least connected proteins in the STRING	67.06	100	1	MTCP1
+Least common	Least connected proteins in the STRING	69.2	200	3	C8orf48, MAP3K7CL, MTCP1
+Least common	Least connected proteins in the STRING	71.85	300	5	C8orf48, FAM24B, MAP3K7CL, MTCP1, TMEM220
+Least common	Least connected proteins in the STRING	74.95	400	10	C11orf65, C17orf97, C8orf48, FAM24B, KIAA0895, MAP3K7CL, MTCP1, OR7D2, SPATC1L, TMEM220
+Least common	Least connected proteins in the HIPPIE	67.65	100	1	MCTP1
+Least common	Least connected proteins in the HIPPIE	69.2	200	2	MCTP1, SCN9A
+Least common	Least connected proteins in the HIPPIE	71.85	300	5	ADAMTS3, MCTP1, SCN9A, ZNF678, ZNF788P
+Least common	Least connected proteins in the HIPPIE	73.89	400	11	ADAMTS3, CD99P1, LAMP5, MCTP1, SAMD12, SCARNA17, SCN9A, VSIG10L, ZNF492, ZNF678, ZNF788P

@@ -1,29 +1,365 @@
-Pathway name	Pathway ID
-Amyotrophic lateral sclerosis	hsa05014
-Thyroid hormone synthesis	hsa04918
-Salivary secretion	hsa04970
-Inflammatory mediator regulation of TRP channels	hsa04750
-Parathyroid hormone synthesis, secretion and action	hsa04928
-Growth hormone synthesis, secretion and action	hsa04935
-Nicotine addiction	hsa05033
-Hedgehog signaling pathway	hsa04340
-Long-term potentiation	hsa04720
-Type II diabetes mellitus	hsa04930
-Serotonergic synapse	hsa04726
-Cholinergic synapse	hsa04725
-Amphetamine addiction	hsa05031
-Insulin secretion	hsa04911
-Aldosterone synthesis and secretion	hsa04925
-Circadian entrainment	hsa04713
-Glutamatergic synapse	hsa04724
-GABAergic synapse	hsa04727
-Morphine addiction	hsa05032
-GnRH secretion	hsa04929
-Synaptic vesicle cycle	hsa04721
-ErbB signaling pathway	hsa04012
-Cocaine addiction	hsa05030
-Dopaminergic synapse	hsa04728
-Alcoholism	hsa05034
-Long-term depression	hsa04730
-Gap junction	hsa04540
-Relaxin signaling pathway	hsa04926
+disease ID	DE genes calculated?	dataset ID	dataset used?
+169	yes	E-MTAB-733	yes
+		E-TABM-389	yes
+263	only 1 sample	E-MTAB-3222	yes
+		E-MTAB-6692	no: missing raw data
+289	no DE genes	E-MTAB-694	yes
+		E-GEOD-6364	yes
+657	yes	E-MTAB-6698	no: SuperSeries
+		E-TABM-311	yes
+		E-GEOD-15960	yes
+		E-GEOD-4060	no: missing raw data
+		E-GEOD-37364	yes
+		E-GEOD-8514	yes
+769	no normal data	E-GEOD-13141	yes
+		E-GEOD-16237	yes
+1040	yes	E-MTAB-1991	yes
+		E-GEOD-9250	yes
+		E-TABM-763	yes
+		E-GEOD-16455	yes
+		E-GEOD-26725	yes
+		E-GEOD-12734	yes
+		E-GEOD-28654	yes
+		E-GEOD-23293	yes
+		E-MEXP-2957	yes
+		E-GEOD-25571	yes
+		E-GEOD-42733	yes
+		E-GEOD-49697	no: SuperSeries
+1115	no normal data	E-GEOD-24199	yes
+		E-MEXP-964	yes
+		E-GEOD-21050	yes
+1324	yes	E-MTAB-6699	no: SuperSeries
+		E-GEOD-31735	yes
+		E-GEOD-19188	yes
+		E-GEOD-8581	yes
+		E-GEOD-12667	yes
+		E-GEOD-12631	yes
+		E-GEOD-32175	yes
+		E-MTAB-3222	yes
+		E-GEOD-19249	yes
+1470	no DE genes	E-GEOD-44593	yes
+		E-GEOD-53987	yes
+1596	no DE genes	E-GEOD-54571	yes
+		E-GEOD-54568	no: missing raw data
+		E-GEOD-54567	yes
+		E-GEOD-54572	yes
+		E-GEOD-54566	yes
+		E-GEOD-54565	yes
+1612	yes	E-GEOD-23177	yes
+		E-GEOD-22035	yes
+		E-GEOD-29431	yes
+		E-GEOD-54002	yes
+		E-GEOD-31192	yes
+		E-GEOD-5460	no: problems with raw data
+		E-GEOD-5764	yes
+		E-GEOD-52327	yes
+		E-GEOD-36771	yes
+		E-GEOD-25407	yes
+		E-GEOD-23593	yes
+		E-GEOD-11078	no: missing raw data
+		E-GEOD-14017	yes
+		E-GEOD-3744	yes
+		E-MTAB-6703	no: missing raw data
+		E-MTAB-1547	yes
+		E-GEOD-36774	yes
+		E-GEOD-20266	yes
+		E-MEXP-3688	yes
+		E-GEOD-20086	yes
+		E-GEOD-36765	yes
+		E-GEOD-10780	yes
+		E-TABM-276	yes
+		E-GEOD-28821	yes
+		E-GEOD-21422	yes
+		E-GEOD-8977	yes
+		E-GEOD-31138	yes
+		E-MTAB-2501	yes
+		E-MTAB-5724	yes
+		E-GEOD-7515	yes
+1793	yes	E-GEOD-22780	yes
+		E-GEOD-9350	yes
+		E-GEOD-9599	yes
+		E-GEOD-16515	yes
+		E-GEOD-14245	yes
+		E-GEOD-32676	yes
+		E-MTAB-6690	no: SuperSeries
+		E-GEOD-36076	yes
+		E-MTAB-3222	yes
+		E-GEOD-49515	yes
+		E-GEOD-32688	no: problems with raw data
+		E-MEXP-2894	yes
+1883	yes	E-GEOD-58208	yes
+		E-GEOD-6764	yes
+		E-GEOD-9843	yes
+1909	yes	E-GEOD-4587	no: missing raw data
+		E-GEOD-62837	yes
+		E-MTAB-1862	yes
+		E-GEOD-19234	yes
+		E-MTAB-6697	no: SuperSeries
+		E-GEOD-19293	yes
+1967	no normal data	E-GEOD-9511	yes
+		E-GEOD-21050	yes
+2377	yes	E-GEOD-26484	yes
+		E-GEOD-52139	yes
+		E-MTAB-5151	no: missing raw data
+		E-GEOD-21942	yes
+		E-MTAB-69	yes
+		E-GEOD-43592	yes
+		E-GEOD-23205	yes
+		E-GEOD-16461	yes
+		E-GEOD-43591	yes
+2394	yes	E-GEOD-40595	yes
+		E-GEOD-12172	yes
+		E-MEXP-935	yes
+		E-GEOD-44104	yes
+		E-MTAB-3222	yes
+		E-MEXP-1085	no: problems with raw data
+		E-MTAB-6691	no: SuperSeries
+2841	yes	E-GEOD-41862	yes
+		E-GEOD-13785	yes
+		E-GEOD-8052	yes
+		E-GEOD-41863	yes
+		E-GEOD-35571	yes
+		E-MTAB-1425	yes
+3069	yes	E-GEOD-34824	yes
+		E-GEOD-44841	yes
+		E-MTAB-1852	yes
+		E-MTAB-4455	yes
+		E-GEOD-21354	yes
+		E-GEOD-19578	yes
+		E-GEOD-4290	no: missing raw data
+		E-GEOD-50161	yes
+		E-GEOD-32876	yes
+		E-GEOD-68850	no: problems with raw data
+		E-GEOD-30563	yes
+		E-GEOD-49822	yes
+		E-GEOD-35493	yes
+		E-GEOD-32374	yes
+		E-GEOD-20736	yes
+		E-MTAB-3073	yes
+		E-GEOD-26576	yes
+		E-GEOD-44843	no: problems with raw data
+3070	yes	E-GEOD-68015	yes
+		E-GEOD-66354	yes
+		E-MTAB-2358	yes
+		E-GEOD-43378	yes
+		E-GEOD-55541	yes
+3083	yes	E-GEOD-13896	yes
+		E-MTAB-1690	yes
+		E-GEOD-8581	yes
+		E-MTAB-1688	no: problems with raw data
+		E-MTAB-5278	yes
+		E-GEOD-22148	yes
+3234	no normal data	E-GEOD-34771	yes
+		E-GEOD-61578	yes
+3247	yes	E-GEOD-68015	yes
+		E-TABM-1202	yes
+3310	yes	E-GEOD-32924	yes
+		E-GEOD-16161	yes
+		E-GEOD-36842	yes
+3312	no DE genes	E-GEOD-74358	yes
+		E-GEOD-53987	yes
+3382	no normal data	E-GEOD-21050	yes
+		E-GEOD-20559	yes
+3908	yes	E-MTAB-1690	yes
+		E-GEOD-8581	yes
+		E-GEOD-28571	yes
+		E-MTAB-5231	yes
+		E-GEOD-19804	yes
+		E-GEOD-12667	yes
+		E-MTAB-1727	no: problems with raw data
+		E-GEOD-18842	yes
+		E-MTAB-6043	no: SuperSeries
+3910	yes	E-GEOD-10799	yes
+		E-GEOD-12667	yes
+		E-GEOD-40791	yes
+		E-GEOD-8581	yes
+4074	no normal data	E-MEXP-2780	yes
+		E-GEOD-15471	yes
+		E-GEOD-27890	yes
+		E-MEXP-2894	yes
+4450	yes	E-TABM-282	yes
+		E-GEOD-8581	yes
+		E-GEOD-36895	yes
+		E-GEOD-7869	yes
+		E-GEOD-53757	yes
+5419	yes	E-GEOD-4036	no: missing raw data
+		E-GEOD-27383	yes
+		E-GEOD-21935	yes
+		E-GEOD-53987	yes
+		E-GEOD-21138	yes
+		E-MEXP-2998	yes
+5520	no normal data	E-MTAB-1328	no: problems with raw data
+		E-TABM-302	yes
+		E-GEOD-3292	no: missing raw data
+5603	no normal data	E-GEOD-39816	yes
+		E-GEOD-42038	yes
+		E-MTAB-1205	yes
+		E-GEOD-14479	yes
+		E-MTAB-5035	yes
+5844	yes	E-GEOD-19339	yes
+		E-GEOD-29111	yes
+		E-GEOD-12631	yes
+		E-GEOD-48060	yes
+		E-MEXP-1621	yes
+		E-GEOD-66360	yes
+7502	yes	E-GEOD-68015	yes
+		E-GEOD-66354	yes
+8567	yes	E-GEOD-17920	yes
+		E-GEOD-39133	yes
+		E-GEOD-7788	yes
+		E-GEOD-20011	no: missing raw data
+8778	yes	E-MEXP-1225	yes
+		E-MEXP-2083	yes
+		E-GEOD-11499	yes
+		E-TABM-118	yes
+8893	yes	E-GEOD-13355	yes
+		E-GEOD-30999	yes
+		E-GEOD-41662	yes
+		E-GEOD-67853	yes
+		E-GEOD-34248	yes
+		E-GEOD-16161	yes
+		E-GEOD-14905	yes
+		E-GEOD-50790	yes
+9074	yes	E-GEOD-22132	yes
+		E-GEOD-50772	yes
+		E-GEOD-30153	yes
+9119	yes	E-MTAB-5014	yes
+		E-GEOD-14924	yes
+		E-TABM-945	yes
+		E-MTAB-220	yes
+		E-GEOD-33223	yes
+		E-TABM-1020	yes
+		E-GEOD-12326	yes
+		E-GEOD-21261	yes
+		E-TABM-1029	yes
+		E-TABM-1208	yes
+		E-TABM-1072	yes
+		E-MTAB-3444	yes
+		E-MTAB-1356	yes
+		E-GEOD-19577	yes
+		E-TABM-1165	yes
+		E-GEOD-15434	yes
+		E-GEOD-50928	yes
+		E-GEOD-25300	yes
+		E-GEOD-30442	yes
+		E-TABM-1189	yes
+		E-GEOD-42064	yes
+		E-GEOD-39730	yes
+		E-MTAB-1075	yes
+		E-GEOD-14479	yes
+9253	no normal data	E-GEOD-17743	yes
+		E-GEOD-8167	yes
+9256	yes	E-GEOD-13471	yes
+		E-MEXP-3756	yes
+		E-MTAB-6698	no: SuperSeries
+		E-MEXP-2467	yes
+		E-GEOD-65222	yes
+		E-GEOD-15960	yes
+		E-GEOD-34053	yes
+		E-GEOD-4183	yes
+		E-GEOD-21510	yes
+		E-GEOD-18105	yes
+		E-MTAB-1532	yes
+		E-GEOD-17538	yes
+		E-GEOD-39395	yes
+		E-GEOD-19249	yes
+		E-GEOD-23194	yes
+9261	yes	E-GEOD-12452	yes
+		E-GEOD-34573	yes
+9538	yes	E-GEOD-68891	yes
+		E-MTAB-4717	yes
+		E-GEOD-26863	no: problems with raw data
+		E-GEOD-28326	yes
+		E-GEOD-17306	no: problems with raw data
+		E-GEOD-58133	yes
+		E-GEOD-28331	no: problems with raw data
+		E-GEOD-28327	yes
+		E-GEOD-29023	no: problems with raw data
+		E-MTAB-4715	yes
+		E-GEOD-36474	yes
+		E-GEOD-19784	no: problems with raw data
+9744	no DE genes	E-GEOD-55100	no: SuperSeries
+		E-GEOD-55098	yes
+		E-GEOD-10586	no: problems with raw data
+		E-TABM-666	yes
+9778	yes	E-TABM-176	yes
+		E-GEOD-36701	yes
+9952	no normal data	E-MEXP-1522	yes
+		E-MTAB-5035	yes
+		E-GEOD-26865	yes
+		E-GEOD-42765	yes
+		E-GEOD-10820	yes
+		E-GEOD-20910	yes
+		E-GEOD-19475	no: problems with raw data
+		E-GEOD-18497	yes
+		E-GEOD-20011	no: missing raw data
+		E-GEOD-49032	no: missing raw data
+9970	yes	E-GEOD-20950	yes
+		E-MTAB-54	yes
+		E-GEOD-19238	yes
+		E-MEXP-1425	yes
+		E-MTAB-1895	yes
+10223	yes	E-GEOD-46239	yes
+		E-GEOD-39454	yes
+10283	yes	E-GEOD-3325	yes
+		E-MTAB-6694	no: SuperSeries
+		E-MTAB-3222	yes
+		E-GEOD-17906	yes
+		E-MEXP-993	yes
+10652	yes	E-GEOD-4757	yes
+		E-GEOD-16759	no: problems with raw data
+		E-GEOD-5281	yes
+		E-GEOD-48350	yes
+		E-MEXP-2280	yes
+		E-GEOD-28146	yes
+		E-GEOD-18309	yes
+11335	yes	E-GEOD-16538	yes
+		E-GEOD-18781	yes
+		E-GEOD-19314	yes
+40085	yes	E-GEOD-11755	yes
+		E-GEOD-9960	yes
+		E-GEOD-9692	yes
+		E-GEOD-8121	yes
+		E-GEOD-66099	yes
+50745	no normal data	E-GEOD-53786	no: problems with raw data
+		E-GEOD-11318	no: problems with raw data
+		E-GEOD-61578	yes
+		E-GEOD-34339	no: problems with raw data
+		E-GEOD-17189	yes
+50746	yes	E-MTAB-1991	yes
+		E-GEOD-21554	no: problems with raw data
+		E-GEOD-16455	yes
+		E-GEOD-18736	yes
+		E-GEOD-70927	yes
+		E-GEOD-36000	yes
+		E-GEOD-21452	yes
+50749	yes	E-GEOD-70328	no: problems with raw data
+		E-GEOD-6338	yes
+		E-TABM-783	yes
+50750	no normal data	E-GEOD-35082	yes
+		E-GEOD-16455	yes
+		E-GEOD-21554	no: SuperSeries
+		E-GEOD-35383	no: SuperSeries
+50866	yes	E-GEOD-30784	yes
+		E-MTAB-5933	yes
+50902	yes	E-GEOD-35493	yes
+		E-GEOD-68015	yes
+		E-GEOD-66354	yes
+		E-GEOD-50161	yes
+50908	yes	E-GEOD-30195	yes
+		E-GEOD-25300	yes
+		E-GEOD-4619	no: missing raw data
+		E-GEOD-19429	yes
+50909	yes	E-GEOD-13314	yes
+		E-GEOD-25550	yes
+		E-GEOD-18736	yes
+		E-GEOD-23293	yes
+60074	yes	E-GEOD-21422	yes
+		E-MTAB-748	no: problems with raw data
+70004	yes	E-MTAB-372	yes
+		E-MTAB-317	yes
+		E-GEOD-26049	yes
+		E-MTAB-510	yes
+		E-MTAB-2299	yes
+80199	yes	E-MEXP-3991	yes
+		E-GEOD-23878	yes
