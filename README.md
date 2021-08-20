@@ -23,7 +23,7 @@ This repository contains code and data for described in detail in our paper, "To
 
 If you have found our study useful in your work, please consider citing:
 
-Figueiredo, R. Q., Raschka, T., Kodamullill, A. T., Hofmann-Apitius, M., Mubeen, S., and Domingo-Fernández, D. (2021). [Towards a global investigation of transcriptomic signatures through co-expression networks and pathway knowledge for the identification of disease mechanisms](http://doi.org/10.1093/nar/gkab556), *Nucleic acid research*, *49*(14), 7939–7953. http://doi.org/10.1093/nar/gkab556
+Figueiredo, R. Q., Raschka, T., Kodamullill, A. T., Hofmann-Apitius, M., Mubeen, S., and Domingo-Fernández, D. (2021). [Towards a global investigation of transcriptomic signatures through co-expression networks and pathway knowledge for the identification of disease mechanisms](http://doi.org/10.1093/nar/gkab556), *Nucleic acid research*, *49*(14), 7939–7953, gkab556
 
 ### Setup environment
 Install requirements
